@@ -2,24 +2,50 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: font-family: 'Open Sans', sans-serif;
 }
 
+.title {
+  font-size: 6rem;
+  text-transform: capitalize;
+}
 
+.welcome-position {
+  text-align: center;
+  margin: auto;
+}
+
+.products-position { text-align: left; }
+
+.bg-welcome {
+  background: url('./assets/bgWelcome.png');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.nav {
+  color: white;
+  background-color: rgba(0,0,0,0.6);
+}
 
 .nav__elements__info {
   display: flex;
   margin-left: 20%;
-  border: 1px solid red;
+  border-bottom: 1px solid #fff;
 }
 
 .nav__elements__info figure  {
-  border: 1px solid black;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
 
 .nav__elements__info > div {
   display: flex;
+}
+
+.nav__elements__info > div > p {
+  line-height: 50px;
 }
 
 .nav span {
@@ -32,39 +58,24 @@
   list-style: none;
   width: 80%;
   margin-left: 15%;
+  padding: 1%;
 }
 
 .nav__elements__links ul li a {
-  color: black;
+  color: #fff;
   text-decoration: none;
   text-transform: capitalize;
 }
 
-
 .main__welcome {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
   color: white;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   padding-top: 10%;
-  background: url('./assets/bgWelcome.png');
-  background-size: cover;
-  overflow: hidden;
-  z-index: -1;
 }
 
 .main__welcome > div:nth-child(1) {
   height: 35vh;
-}
-
-.main__welcome > div:nth-child(1) > h2 {
-  font-size: 6rem;
-  text-align: center;
-  margin: auto;
-  text-transform: capitalize;
 }
 
 .main__welcome > div:nth-child(2) {
@@ -77,4 +88,65 @@
   font-weight: lighter;
   font-size: 1.5rem;
   width: 50%;
+}
+
+.products {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  
+}
+
+.products > div { align-self: center; }
+
+.products > div > h2 {
+  width: 50vw;
+
+}
+
+.products > div > div {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .products > div > div > figure {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid red;
+}
+  */
+
+.wholesaling {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.wholesaling > div {
+  margin-left: 50%;
+  align-self: center;
+}
+
+.takeaway {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.takeaway > div { align-self: center; }
+
+.takeaway > div > h2 { width: 50vw; }
+
+.our-history {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.our-history > div  {
+  width: 60%;
+  margin: auto;
 }
