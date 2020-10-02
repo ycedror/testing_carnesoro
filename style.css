@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .title {
@@ -19,25 +19,55 @@
 
 .bg-welcome {
   background: url('./assets/bgWelcome.png');
-  background-size: cover;
+  background-size: 100vw 100%;
   width: 100%;
   height: 100vh;
 }
 
 .nav {
   color: white;
+  display: flex;
+}
+
+.nav-logo {
+  margin-left: 6%;
+}
+
+.nav-logo > figure > img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav__elements__container {
   background-color: rgba(0,0,0,0.6);
+  height: 10%;
+  width: 100%;
 }
 
 .nav__elements__info {
   display: flex;
-  margin-left: 20%;
+  justify-content: space-between;
+  align-items: center;
+  width: 94%;
+  margin-left: 6%;
+  padding-top: 1%;
+  padding-left: 8%;
+  padding-right: 9%;
   border-bottom: 1px solid #fff;
 }
 
-.nav__elements__info figure  {
-  width: 30px;
-  height: 30px;
+.nav__elements__info figure {
+  height: 50px;
+}
+
+.nav__elements__info > div figure {
+  width: 25px;
+  height: 25px;
+}
+
+.nav__elements__arrow {
+  cursor: pointer;
+  height: 80%;
 }
 
 .nav__elements__info > div {
@@ -48,16 +78,12 @@
   line-height: 50px;
 }
 
-.nav span {
-  border: 1px solid red;
-}
-
 .nav__elements__links ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  width: 80%;
-  margin-left: 15%;
+  width: 90%;
+  margin-left: 8%;
   padding: 1%;
 }
 
@@ -69,13 +95,11 @@
 
 .main__welcome {
   color: white;
-  width: 100%;
-  height: 100vh;
-  padding-top: 10%;
+  padding-top: 7%;
 }
 
 .main__welcome > div:nth-child(1) {
-  height: 35vh;
+  height: 30vh;
 }
 
 .main__welcome > div:nth-child(2) {
@@ -86,7 +110,7 @@
 
 .main__welcome > div:nth-child(2) > h1 {
   font-weight: lighter;
-  font-size: 1.5rem;
+  font-size: 1rem;
   width: 50%;
 }
 
@@ -94,7 +118,6 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-  
 }
 
 .products > div { align-self: center; }
