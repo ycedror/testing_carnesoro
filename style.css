@@ -18,27 +18,27 @@
 .products-position { text-align: left; }
 
 .bg-welcome {
-  background: url('./assets/bgWelcome.png');
+  background: url('./assets/bgWelcome.jpg');
   background-size: cover;
   width: 100%;
   height: 100vh;
 }
 .bg-products {
-  background: url('./assets/bgProducts.png');
+  background: url('./assets/bgProducts.jpg');
   background-size: cover;
   width: 100%;
   height: 100vh;
 }
 
 .bg-wholesaling {
-  background: url('./assets/bgWholesaling.png');
+  background: url('./assets/bgWholesaling.jpg');
   background-size: cover;
   width: 100%;
   height: 100vh;
 }
 
 .bg-takeaway {
-  background: url('./assets/bgTakeaway.png');
+  background: url('./assets/bgTakeaway.jpg');
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -87,11 +87,15 @@
 
 .nav__elements__arrow {
   cursor: pointer;
-  height: 70%;
+  height: 80%;
 }
 
 .nav__elements__info > div {
   display: flex;
+}
+
+.nav__elements__info > div > p {
+  line-height: 50px;
 }
 
 .nav__elements__links ul {
