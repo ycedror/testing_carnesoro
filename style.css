@@ -10,9 +10,15 @@
   src: url('./assets/kenyanCoffeeBOLD.ttf')
 }
 
+body {
+  display: flex;
+  width: 600vw;
+  overflow: hidden;
+}
+
 
 /************** PC NORMAL ******************/
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:1000px) {
   
   .products-position { text-align: left; }
   
@@ -390,7 +396,7 @@
 
 
 /************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) and (max-width: 999px) {
   .products-position { text-align: left; }
   
   .bg-welcome {
@@ -723,7 +729,7 @@
 
 
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 699px) {
   
   .bg-welcome {
     background: url('./assets/bgWelcome.jpg');
