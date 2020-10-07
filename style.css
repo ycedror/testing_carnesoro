@@ -20,8 +20,6 @@ body {
 /************** PC NORMAL ******************/
 @media only screen and (min-width:1000px) {
   
-  .products-position { text-align: left; }
-  
   .bg-welcome {
     background: url('./assets/bgWelcome.jpg');
     background-size: cover;
@@ -397,7 +395,6 @@ body {
 
 /************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
 @media only screen and (min-width: 700px) and (max-width: 999px) {
-  .products-position { text-align: left; }
   
   .bg-welcome {
     background: url('./assets/bgWelcome.jpg');
@@ -1053,6 +1050,382 @@ body {
     width: 30%;
     margin: auto;
   }
-  
 }
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
+
+
+
+
+/************** 4K ******************/
+/* @media only screen and (min-width:1301px) {
+  
+  .bg-welcome {
+    background: url('./assets/bgWelcome.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .bg-products {
+    background: url('./assets/bgProducts.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .bg-wholesaling {
+    background: url('./assets/bgWholesaling.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .bg-takeaway {
+    background: url('./assets/bgTakeaway.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .bg-our-history {
+    background: url('./assets/bgOurHistory.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .bg-contact {
+    background: url('./assets/bgContacto.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .nav {
+    color: white;
+    display: flex;
+  }
+  
+  .nav-logo {
+    margin-left: 6%;
+  }
+  
+  .nav-logo > figure > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .nav__elements__container {
+    background-color: rgba(0,0,0,0.6);
+    height: 10%;
+    width: 100%;
+  }
+  
+  .nav__elements__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin-left: 6%;
+    padding-top: 1%;
+    padding-left: 8%;
+    padding-right: 9%;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .nav__elements__info figure {
+    height: 50px;
+  }
+  
+  .nav__elements__info > div figure {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .nav__elements__arrow {
+    cursor: pointer;
+    height: 80%;
+  }
+  
+  .nav__elements__info > div {
+    display: flex;
+  }
+  
+  .nav__elements__info > div > p {
+    line-height: 50px;
+  }
+  
+  .nav__elements__links ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 90%;
+    margin-left: 8%;
+    padding: 1%;
+  }
+  
+  .nav__elements__links ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .main__welcome {
+    color: white;
+    display: flex;
+  }
+  
+  .welcome__info {
+    width: 94%;
+  }
+  
+  .welcome__info > p {
+    font-family: kenyanCoffee;
+    font-size: 10rem;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+  
+  .welcome__info > h1 {
+    font-weight: lighter;
+    font-size: 2.3rem;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .products {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color:white;
+  }
+  
+  .arrow {
+    width: 6%;
+    padding-left: 2%;
+    padding-top: 13%;
+    transition: 0.5s all;
+  }
+  
+  .products__info {
+    width: 94%;
+  }
+  
+  .products__info > p {
+    font-family: kenyanCoffee;
+    font-size: 10rem;
+    text-transform: capitalize;
+  }
+  
+  .products__info > h2 {
+    width: 45vw;
+    font-size: 1.8rem;
+    font-weight: lighter;
+  }
+  
+  .products__info > div {
+    margin-top: 2rem;
+    width: 70vw;
+    display: flex;
+  }
+  
+  .products__icons img {
+    height: 18%;
+    transition: 0.5s all;
+  }
+  
+  .products__icons img:hover {
+    height: 22%;
+  }
+  
+  .wholesaling {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: white;
+  }
+  
+  .wholesaling__info {
+    padding-left: 42%;
+    width: 94%;
+  }
+  
+  .wholesaling__info > figure {
+    position: relative;
+    top: -5vh;
+    left: 37vw;
+  }
+  
+  .wholesaling__info > figure > a > img {
+    width: 30%;
+  }
+  
+  .wholesaling__info > p {
+    position: relative;
+    top: -12vh;
+    font-family: kenyanCoffee;
+    font-size: 10rem;
+    text-transform: capitalize;
+  }
+  
+  .wholesaling__info > h2 {
+    position: relative;
+    top: -12vh;
+    font-weight: lighter;
+    font-size: 2rem;
+  }
+  
+  .takeaway {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  
+  .takeaway__info{
+    width: 88%;
+  }
+  
+  .takeaway__info > figure{ 
+    position: relative;
+    top: -5vh;
+    left: 76vw;
+  }
+  
+  .takeaway__info > figure > a > img {
+    width: 17%;
+  }
+  
+  .takeaway__info > p {
+    position: relative;
+    top: -15vh;
+    font-family: kenyanCoffee;
+    font-size: 10rem;
+  }
+  
+  .takeaway__info > h2 {
+    position: relative;
+    top: -15vh;
+    font-weight: lighter;
+    font-size: 2rem;
+    width: 50vw;
+  }
+  
+  .our-history {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  
+  .our-history__info{
+    width: 88%;
+  }
+  
+  .our-history__info > figure {
+    margin-left: 85%;
+  }
+  
+  .our-history__info > figure > a > img {
+    width: 100%;
+  }
+  
+  .our-history__info > p {
+    font-family: kenyanCoffee;
+    font-size: 10rem;
+    text-transform: capitalize;
+    margin: auto;
+    width: 50%;
+  }
+  
+  .our-history__info > h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .contact {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: white;
+  }
+  
+  .contact__info{
+    width: 88%;
+  }
+  
+  .contact__info > figure{ 
+    position: relative;
+    top: -5vh;
+    left: 76vw;
+  }
+  
+  .contact__info > figure > a > img {
+    width: 17%;
+  }
+  
+  .contact__info > p {
+    position: relative;
+    top: -15vh;
+    font-family: kenyanCoffee;
+    font-size: 10rem;
+    text-transform: capitalize;
+  }
+  
+  .contact__info > h2 {
+    position: relative;
+    font-weight: lighter;
+    font-size: 2rem;
+    top: -15vh;
+    width: 70vw;
+  }
+  
+  .contact__branches {
+    position: relative;
+    top: -13vh;
+    margin-left: 5%;
+  }
+  
+  .contact__branches > div {
+    margin-bottom: 1%;
+  }
+  
+  .contact__branches > div > h3 {
+    text-transform: capitalize;
+    font-size: 2rem;
+  }
+  
+  .contact__branches > div > p {
+    font-size: 1.2rem;
+  }
+  
+  .contact__social-networks {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: auto;
+  }
+  
+  .contact__social-networks {
+    position: relative;
+    top: -11vh;
+  }
+  
+  .contact__social-networks > figure > a img{
+    height: 65px;
+    transition: 0.5s all;
+  }
+  
+  .contact__social-networks > figure > a:hover img{
+    transform: scale(1.2);
+  }
+} */
+/************** 4K ******************/
