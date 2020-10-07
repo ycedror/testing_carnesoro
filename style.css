@@ -73,6 +73,8 @@ body {
   .nav {
     color: white;
     display: flex;
+    position: fixed;
+    width: 100vw;
   }
   
   .nav-logo {
@@ -139,6 +141,11 @@ body {
     text-transform: capitalize;
   }
   
+.main__welcome, .products, .wholesaling, .contact, .takeaway, .our-history{
+  margin-top: 18%;
+}
+
+
   .main__welcome {
     color: white;
     display: flex;
@@ -264,6 +271,7 @@ body {
   
   .takeaway__info > figure > a > img {
     width: 17%;
+    position: fixed;
   }
   
   .takeaway__info > p {
