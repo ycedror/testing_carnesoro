@@ -21,9 +21,6 @@ body {
 
 
 /************** PC NORMAL ******************/
-<<<<<<< HEAD
-@media only screen and (max-width:1300px) and (min-width:1000px) {
-=======
 @media only screen and (max-width:1400px) and (min-width:1000px) {
 
   body {
@@ -35,7 +32,6 @@ body {
     width: 600vw;
   }
 
->>>>>>> 7a4a1f96960ff94de004a7badfa26cf86266015b
   .arrow {
     width: 6%;
     padding-left: 2%;
@@ -727,13 +723,10 @@ body {
 
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
 @media only screen and (max-width: 699px) {
-<<<<<<< HEAD
-=======
   
   body {
     overflow: hidden;
   }
->>>>>>> 7a4a1f96960ff94de004a7badfa26cf86266015b
   
   .master-container {
     display: flex;
@@ -1073,9 +1066,6 @@ body {
 
 
 /************** 4K ******************/
-<<<<<<< HEAD
-@media only screen and (min-width:1301px) {
-=======
 @media only screen and (min-width:1401px) {
   body {
     overflow: hidden;
@@ -1086,7 +1076,6 @@ body {
     width: 600vw;
   }
 
->>>>>>> 7a4a1f96960ff94de004a7badfa26cf86266015b
   
   .bg-welcome {
     background: url('./assets/bgWelcomePC.jpg');
@@ -1148,14 +1137,10 @@ body {
   .nav {
     display: flex;
     position: fixed;
-<<<<<<< HEAD
-    width: 100vw;
-=======
     color: white;
     width: 100vw;
     height: 15%;
     background-color: rgba(0,0,0,0.6);
->>>>>>> 7a4a1f96960ff94de004a7badfa26cf86266015b
   }
   
   .nav-logo {
