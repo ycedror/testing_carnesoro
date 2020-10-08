@@ -56,10 +56,6 @@ body {
   .nav {
     display: flex;
     position: fixed;
-<<<<<<< HEAD
-=======
-    color: white;
->>>>>>> 1f5bb044bb73441812c11c97e9c282e3dfb7cf99
     width: 100vw;
   }
   
