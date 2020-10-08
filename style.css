@@ -402,7 +402,7 @@ body {
 
 
 /************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
-@media only screen and (min-width: 700px) and (max-width: 999px) {
+@media only screen and (max-width: 999px) and (min-width: 700px) {
   
   .bg-welcome {
     background: url('./assets/bgWelcome.jpg');
@@ -1065,7 +1065,7 @@ body {
 
 
 /************** 4K ******************/
-/* @media only screen and (min-width:1301px) {
+@media only screen and (min-width:1301px) {
   
   .bg-welcome {
     background: url('./assets/bgWelcome.jpg');
@@ -1435,5 +1435,5 @@ body {
   .contact__social-networks > figure > a:hover img{
     transform: scale(1.2);
   }
-} */
+}
 /************** 4K ******************/
