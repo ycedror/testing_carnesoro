@@ -17,12 +17,25 @@ body {
 .master-container {
   display: flex;
   width: 600vw;
-  
 }
 
 
 /************** PC NORMAL ******************/
+<<<<<<< HEAD
 @media only screen and (max-width:1300px) and (min-width:1000px) {
+=======
+@media only screen and (max-width:1400px) and (min-width:1000px) {
+
+  body {
+    overflow: hidden;
+  }
+  
+  .master-container {
+    display: flex;
+    width: 600vw;
+  }
+
+>>>>>>> 7a4a1f96960ff94de004a7badfa26cf86266015b
   .arrow {
     width: 6%;
     padding-left: 2%;
@@ -30,17 +43,17 @@ body {
     transition: 0.5s all;
   }
   
-  .bg-welcome { background: url('./assets/bgWelcome.jpg'); }
+  .bg-welcome { background: url('./assets/bgWelcomePC.jpg'); }
   
-  .bg-products { background: url('./assets/bgProducts.jpg'); }
+  .bg-products { background: url('./assets/bgProductsPC.jpg'); }
   
-  .bg-wholesaling { background: url('./assets/bgWholesaling.jpg'); }
+  .bg-wholesaling { background: url('./assets/bgWholesalingPC.jpg'); }
   
-  .bg-takeaway { background: url('./assets/bgTakeaway.jpg'); }
+  .bg-takeaway { background: url('./assets/bgTakeawayPC.jpg'); }
   
-  .bg-our-history { background: url('./assets/bgOurHistory.jpg'); }
+  .bg-our-history { background: url('./assets/bgOurHistoryPC.jpg'); }
   
-  .bg-contact { background: url('./assets/bgContacto.jpg'); }
+  .bg-contact { background: url('./assets/bgContactPC.jpg'); }
   
   .bg-welcome,
   .bg-products,
@@ -58,6 +71,8 @@ body {
     position: fixed;
     color: white;
     width: 100vw;
+    height: 15%;
+    background-color: rgba(0,0,0,0.6);
   }
   
   .nav-logo {
@@ -70,7 +85,6 @@ body {
   }
   
   .nav__elements__container {
-    background-color: rgba(0,0,0,0.6);
     height: 10%;
     width: 100%;
   }
@@ -88,9 +102,14 @@ body {
   }
   
   .nav__elements__info figure {
-    height: 50px;
+    height: 40px;
   }
   
+  .nav__elements__info > div {
+    display: flex;
+    
+  }
+
   .nav__elements__info > div figure {
     width: 25px;
     height: 25px;
@@ -99,10 +118,6 @@ body {
   .nav__elements__arrow {
     cursor: pointer;
     height: 80%;
-  }
-  
-  .nav__elements__info > div {
-    display: flex;
   }
   
   .nav__elements__info > div > p {
@@ -115,7 +130,7 @@ body {
     list-style: none;
     width: 90%;
     margin-left: 8%;
-    padding: 1%;
+    padding-top: 0.5%;
   }
   
   .nav__elements__links ul li a {
@@ -374,6 +389,15 @@ body {
 /************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
 @media only screen and (min-width: 700px) and (max-width: 999px) {
   
+  body {
+    overflow: hidden;
+  }
+  
+  .master-container {
+    display: flex;
+    width: 600vw;
+  }
+
   .bg-welcome {
     background: url('./assets/bgWelcome.jpg');
     background-size: cover;
@@ -423,8 +447,12 @@ body {
   }
   
   .nav {
-    color: white;
     display: flex;
+    position: fixed;
+    color: white;
+    width: 100vw;
+    height: 15%;
+    background-color: rgba(0,0,0,0.6);
   }
   
   .nav-logo {
@@ -435,13 +463,7 @@ body {
     width: 100%;
     height: 100%;
   }
-  
-  .nav__elements__container {
-    background-color: rgba(0,0,0,0.6);
-    height: 10%;
-    width: 100%;
-  }
-  
+
   .nav__elements__info {
     display: flex;
     justify-content: space-between;
@@ -705,9 +727,21 @@ body {
 
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
 @media only screen and (max-width: 699px) {
+<<<<<<< HEAD
+=======
   
+  body {
+    overflow: hidden;
+  }
+>>>>>>> 7a4a1f96960ff94de004a7badfa26cf86266015b
+  
+  .master-container {
+    display: flex;
+    width: 600vw;
+  }
+
   .bg-welcome {
-    background: url('./assets/bgWelcome.jpg');
+    background: url('./assets/bgWelcomePC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -715,7 +749,7 @@ body {
   }
   
   .bg-products {
-    background: url('./assets/bgProducts.jpg');
+    background: url('./assets/bgProductsPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -723,7 +757,7 @@ body {
   }
   
   .bg-wholesaling {
-    background: url('./assets/bgWholesaling.jpg');
+    background: url('./assets/bgWholesalingPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -731,7 +765,7 @@ body {
   }
   
   .bg-takeaway {
-    background: url('./assets/bgTakeaway.jpg');
+    background: url('./assets/bgTakeawayPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -739,7 +773,7 @@ body {
   }
   
   .bg-our-history {
-    background: url('./assets/bgOurHistory.jpg');
+    background: url('./assets/bgOurHistoryPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -747,7 +781,7 @@ body {
   }
   
   .bg-contact {
-    background: url('./assets/bgContacto.jpg');
+    background: url('./assets/bgContactoPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -755,8 +789,12 @@ body {
   }
   
   .nav {
-    color: white;
     display: flex;
+    position: fixed;
+    color: white;
+    width: 100vw;
+    height: 15%;
+    background-color: rgba(0,0,0,0.6);
   }
   
   .nav-logo {
@@ -1035,10 +1073,23 @@ body {
 
 
 /************** 4K ******************/
+<<<<<<< HEAD
 @media only screen and (min-width:1301px) {
+=======
+@media only screen and (min-width:1401px) {
+  body {
+    overflow: hidden;
+  }
+  
+  .master-container {
+    display: flex;
+    width: 600vw;
+  }
+
+>>>>>>> 7a4a1f96960ff94de004a7badfa26cf86266015b
   
   .bg-welcome {
-    background: url('./assets/bgWelcome.jpg');
+    background: url('./assets/bgWelcomePC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -1046,7 +1097,7 @@ body {
   }
   
   .bg-products {
-    background: url('./assets/bgProducts.jpg');
+    background: url('./assets/bgProductsPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -1054,7 +1105,7 @@ body {
   }
   
   .bg-wholesaling {
-    background: url('./assets/bgWholesaling.jpg');
+    background: url('./assets/bgWholesalingPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -1062,7 +1113,7 @@ body {
   }
   
   .bg-takeaway {
-    background: url('./assets/bgTakeaway.jpg');
+    background: url('./assets/bgTakeawayPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -1070,7 +1121,7 @@ body {
   }
   
   .bg-our-history {
-    background: url('./assets/bgOurHistory.jpg');
+    background: url('./assets/bgOurHistoryPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -1078,7 +1129,7 @@ body {
   }
   
   .bg-contact {
-    background: url('./assets/bgContacto.jpg');
+    background: url('./assets/bgContactPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -1095,10 +1146,16 @@ body {
   }
 
   .nav {
-    color: white;
     display: flex;
     position: fixed;
+<<<<<<< HEAD
     width: 100vw;
+=======
+    color: white;
+    width: 100vw;
+    height: 15%;
+    background-color: rgba(0,0,0,0.6);
+>>>>>>> 7a4a1f96960ff94de004a7badfa26cf86266015b
   }
   
   .nav-logo {
