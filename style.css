@@ -22,7 +22,7 @@ body {
 
 
 /************** PC NORMAL ******************/
-@media only screen and (min-width:1000px) {
+@media only screen and (max-width:1300px) and (min-width:1000px) {
   .arrow {
     width: 6%;
     padding-left: 2%;
@@ -704,7 +704,7 @@ body {
 
 
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
-@media only screen and (min-width: 375px) and (max-width: 699px) {
+@media only screen and (max-width: 699px) {
   
   .bg-welcome {
     background: url('./assets/bgWelcome.jpg');
@@ -1035,7 +1035,7 @@ body {
 
 
 /************** 4K ******************/
-/* @media only screen and (min-width:1301px) {
+@media only screen and (min-width:1301px) {
   
   .bg-welcome {
     background: url('./assets/bgWelcome.jpg');
@@ -1084,10 +1084,21 @@ body {
     height: 100vh;
     overflow: hidden;
   }
-  
+
+  .main__welcome,
+  .products,
+  .wholesaling,
+  .takeaway,
+  .contact,
+  .our-history 
+  {margin-top: 16vh;
+  }
+
   .nav {
     color: white;
     display: flex;
+    position: fixed;
+    width: 100vw;
   }
   
   .nav-logo {
@@ -1207,6 +1218,7 @@ body {
     width: 45vw;
     font-size: 1.8rem;
     font-weight: lighter;
+    text-rendering: optimizeLegibility;
   }
   
   .products__info > div {
@@ -1405,5 +1417,5 @@ body {
   .contact__social-networks > figure > a:hover img{
     transform: scale(1.2);
   }
-} */
+}
 /************** 4K ******************/
