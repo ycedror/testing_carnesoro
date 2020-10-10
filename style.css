@@ -751,6 +751,7 @@
     justify-content: center;
     position: fixed;
     width: 100vw;
+    z-index: 1;
   }
 
   .nav__mobile__logo,
@@ -807,12 +808,16 @@
     height: 3px;
   }
 
-  .close-nav__mobile > div:nth-child(1) {
-    transform: rotate(45deg) translate(30px,10px);
+  .close-nav__mobile > div:nth-child(1) { 
+    transform: 
+      rotate(45deg) 
+      translate(30px,10px); 
   }
 
   .close-nav__mobile > div:nth-child(2) {
-    transform: rotate(135deg) translate(30px,-10px);
+    transform: 
+      rotate(135deg) 
+      translate(30px,-10px);
   }
 
   .nav__mobile__hamburguer-list ul {
