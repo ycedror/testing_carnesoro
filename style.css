@@ -721,17 +721,17 @@
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
 @media only screen and (max-width: 699px) {
 
-  .bg-welcome { background: url('./assets/bgWelcomePC.jpg'); }
+  .bg-welcome { background: url('./assets/bgWelcomePC.jpg') center; }
 
-  .bg-products { background: url('./assets/bgProductsPC.jpg'); }
+  .bg-products { background: url('./assets/bgProductsPC.jpg') center; }
 
-  .bg-wholesaling { background: url('./assets/bgWholesalingPC.jpg'); }
+  .bg-wholesaling { background: url('./assets/bgWholesalingPC.jpg') left; }
 
-  .bg-takeaway {  background: url('./assets/bgTakeawayPC.jpg'); }
+  .bg-takeaway {  background: url('./assets/bgTakeawayPC.jpg') center; }
 
   .bg-our-history { background: url('./assets/bgOurHistoryPC.jpg'); }
 
-  .bg-contact { background: url('./assets/bgContactPC.jpg'); }
+  .bg-contact { background: url('./assets/bgContactPC.jpg') right; }
 
   .bg-welcome,
   .bg-products,
@@ -768,24 +768,27 @@
     border-radius: 50%;
     margin-top: 15%;
     margin-left: 15%;
-    background-color: rgba(255, 255, 255, 0.249);
+    background-color: rgba(255, 255, 255, 0.859);
+    -webkit-box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
+    -moz-box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
+    box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
   }
   
   .nav__mobile__hamburguer > div {
-    background-color: rgba(255, 0, 0, 0.434);
+    background-color: rgba(0, 0, 0, 0.612);
     margin:  5% auto;
     width: 60%;
     height: 5px;
   }
   
   .nav__mobile__hamburguer-list {
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(255, 0, 0, 0.79);
-    display: none;
+    background-color: rgba(0, 0, 0, 0.886);
   }
 
   .close-nav__mobile {
@@ -800,17 +803,16 @@
 
   .close-nav__mobile > div {
     background-color: rgb(255, 255, 255);
-    margin:  5% auto;
-    width: 90%;
+    width: 100%;
     height: 3px;
   }
 
   .close-nav__mobile > div:nth-child(1) {
-    transform: rotate(45deg);
+    transform: rotate(45deg) translate(30px,10px);
   }
 
   .close-nav__mobile > div:nth-child(2) {
-    transform: rotate(135deg);
+    transform: rotate(135deg) translate(30px,-10px);
   }
 
   .nav__mobile__hamburguer-list ul {
@@ -829,6 +831,7 @@
   .nav__mobile__hamburguer-list ul li a {
     color: white;
     font-size: 2.4rem;
+    font-family: kenyanCoffee;;
     text-decoration: none;
     text-transform: capitalize;
   }
