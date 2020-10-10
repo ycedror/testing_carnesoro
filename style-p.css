@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+  font-family: kenyanCoffee;
+  src: url('./assets/kenyanCoffeeBOLD.ttf')
+}
+
+/************** PC NORMAL ******************/
+@media only screen and (max-width:1400px) and (min-width:1000px) {
+
+  .bg-product {
+    background: url('./assets/bgProduct.jpg') no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .nav {
+    display: flex;
+    position: fixed;
+    color: white;
+    width: 100vw;
+    height: 15%;
+    background-color: rgba(0,0,0,0.6);
+  }
+  
+  .nav-logo { margin-left: 6%; }
+  
+  .nav-logo > figure > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .nav__elements__container {
+    height: 10%;
+    width: 100%;
+  }
+  
+  .nav__elements__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin-left: 6%;
+    padding-top: 1%;
+    padding-left: 8%;
+    padding-right: 9%;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .nav__elements__info figure { height: 40px; }
+  
+  .nav__elements__info > div { display: flex; }
+
+  .nav__elements__info > div figure {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .nav__elements__arrow {
+    cursor: pointer;
+    height: 80%;
+  }
+  
+  .nav__elements__info > div > p { line-height: 50px; }
+  
+  .nav__elements__links ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 90%;
+    margin-left: 8%;
+    padding-top: 0.5%;
+  }
+  
+  .nav__elements__links ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+  
+  .bg-product{
+    display:flex;
+    justify-content: space-around;
+    padding-right: 20vw;
+    padding-left: 10vw;
+  } 
+  
+  .bg-product > div {
+    padding-top: 30vh;
+    align-self: center;
+  }
+  
+  .bg-product > figure {
+    position: absolute;
+    padding-top: 18vh;
+    left: 80vw;
+  }
+  
+  .bg-product > div > div {
+    border: 2px solid red;
+    display:flex;
+    background-color:rgba(0,0,0,0.8);
+    color:#fff;
+    align-items: center;
+    margin: 2rem;
+    /* align-content: space-around;
+    padding-top: 30vh; */
+  }
+  
+  .bg-product > div > div > figure {
+    width: 5vw;
+    padding: 5%;
+  }
+
+  .bg-product > div > div > figure > img {
+    width: 5vw;
+    padding: 0.5%;
+  }
+
+}
+/************** PC NORMAL ******************/
+
+
+
+/************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+  
+}
+/************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
+
+
+
+
+/************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
+@media only screen and (max-width: 699px) {
+ 
+}
+/************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
+
+
+
+
+/************** 4K ******************/
+@media only screen and (min-width:1401px) {
+ 
+}
+/************** 4K ******************/
