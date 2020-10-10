@@ -10,22 +10,10 @@
   src: url('./assets/kenyanCoffeeBOLD.ttf')
 }
 
-body {
-  overflow: hidden;
-}
-
-.master-container {
-  display: flex;
-  width: 600vw;
-}
-
-
 /************** PC NORMAL ******************/
 @media only screen and (max-width:1400px) and (min-width:1000px) {
 
-  body {
-    overflow: hidden;
-  }
+  body { overflow: hidden; }
   
   .master-container {
     display: flex;
@@ -38,7 +26,7 @@ body {
     padding-top: 8%;
     transition: 0.5s all;
   }
-  
+
   .bg-welcome { background: url('./assets/bgWelcomePC.jpg'); }
   
   .bg-products { background: url('./assets/bgProductsPC.jpg'); }
@@ -62,6 +50,17 @@ body {
     height: 100vh;
   }
 
+
+  .bg-product {
+    background: url('./assets/bgProduct.jpg');
+  }
+
+  .bg-product {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+
   .nav {
     display: flex;
     position: fixed;
@@ -71,9 +70,7 @@ body {
     background-color: rgba(0,0,0,0.6);
   }
   
-  .nav-logo {
-    margin-left: 6%;
-  }
+  .nav-logo { margin-left: 6%; }
   
   .nav-logo > figure > img {
     width: 100%;
@@ -97,14 +94,9 @@ body {
     border-bottom: 1px solid #fff;
   }
   
-  .nav__elements__info figure {
-    height: 40px;
-  }
+  .nav__elements__info figure { height: 40px; }
   
-  .nav__elements__info > div {
-    display: flex;
-    
-  }
+  .nav__elements__info > div { display: flex; }
 
   .nav__elements__info > div figure {
     width: 25px;
@@ -116,9 +108,7 @@ body {
     height: 80%;
   }
   
-  .nav__elements__info > div > p {
-    line-height: 50px;
-  }
+  .nav__elements__info > div > p { line-height: 50px; }
   
   .nav__elements__links ul {
     display: flex;
@@ -190,12 +180,12 @@ body {
   }
   
   .products__icons img {
-    height: 15%;
+    height: 70%;
     transition: 0.5s all;
   }
   
   .products__icons img:hover {
-    height: 16%;
+    height: 75%;
   }
   
   .wholesaling {
@@ -723,145 +713,57 @@ body {
 
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
 @media only screen and (max-width: 699px) {
-  
-  body {
-    overflow: hidden;
+
+  .bg-welcome { background: url('./assets/bgWelcomePC.jpg'); }
+
+  .bg-products { background: url('./assets/bgProductsPC.jpg'); }
+
+  .bg-wholesaling { background: url('./assets/bgWholesalingPC.jpg'); }
+
+  .bg-takeaway {  background: url('./assets/bgTakeawayPC.jpg'); }
+
+  .bg-our-history { background: url('./assets/bgOurHistoryPC.jpg'); }
+
+  .bg-contact { background: url('./assets/bgContactoPC.jpg'); }
+
+  .bg-welcome,
+  .bg-products,
+  .bg-wholesaling,
+  .bg-takeaway,
+  .bg-our-history,
+  .bg-contact {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
   }
   
-  .master-container {
+  .nav { display: none; }
+
+  .nav__mobile {
     display: flex;
-    width: 600vw;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
   }
 
-  .bg-welcome {
-    background: url('./assets/bgWelcomePC.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+  .nav__mobile figure {
+    width: 33%;
   }
-  
-  .bg-products {
-    background: url('./assets/bgProductsPC.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .bg-wholesaling {
-    background: url('./assets/bgWholesalingPC.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .bg-takeaway {
-    background: url('./assets/bgTakeawayPC.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .bg-our-history {
-    background: url('./assets/bgOurHistoryPC.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .bg-contact {
-    background: url('./assets/bgContactoPC.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .nav {
-    display: flex;
-    position: fixed;
-    color: white;
-    width: 100vw;
-    height: 15%;
-    background-color: rgba(0,0,0,0.6);
-  }
-  
-  .nav-logo {
-    margin-left: 6%;
-  }
-  
-  .nav-logo > figure > img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .nav__elements__container {
-    background-color: rgba(0,0,0,0.6);
-    height: 10%;
+
+  .nav__mobile figure img {
     width: 100%;
   }
-  
-  .nav__elements__info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 94%;
-    margin-left: 6%;
-    padding-top: 1%;
-    padding-left: 8%;
-    padding-right: 9%;
-    border-bottom: 1px solid #fff;
-  }
-  
-  .nav__elements__info figure {
-    height: 50px;
-  }
-  
-  .nav__elements__info > div figure {
-    width: 25px;
-    height: 25px;
-  }
-  
-  .nav__elements__arrow {
-    cursor: pointer;
-    height: 80%;
-  }
-  
-  .nav__elements__info > div {
-    display: flex;
-  }
-  
-  .nav__elements__info > div > p {
-    line-height: 50px;
-  }
-  
-  .nav__elements__links ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    width: 90%;
-    margin-left: 8%;
-    padding: 1%;
-  }
-  
-  .nav__elements__links ul li a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: capitalize;
-  }
-  
+
   .main__welcome {
-    color: white;
     display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 50%;  
+    width: 100%;
+    height: 100vh;
   }
   
-  .welcome__info {
-    width: 86%;
-  }
+  .welcome__info { width: 80%; }
   
   .welcome__info > p {
     font-family: kenyanCoffee;
@@ -879,19 +781,14 @@ body {
   }
   
   .products {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     color:white;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
   }
   
-  .arrow {
-    width: 6%;
-    padding-left: 2%;
-    padding-top: 40%;
-    transition: 0.5s all;
-    display: none;
-  }
+  .arrow { display: none; }
   
   .products__info {
     width: 86%;
@@ -913,19 +810,19 @@ body {
   
   .products__info > div {
     display: flex;
-    flex-wrap: wrap;
     margin-top: 2rem;
   }
   
   .products__icons img {
-    width: 80%;
+    width: 90%;
   }
   
   .wholesaling {
     display: flex;
+    justify-content: center;
+    color: white;
     width: 100vw;
     height: 100vh;
-    color: white;
   }
   
   .wholesaling__info {
@@ -934,7 +831,12 @@ body {
   }
   
   .wholesaling__info > figure {
+    margin-top: 5%;
     margin-left: 65%;
+  }
+
+  .wholesaling__info > figure > a >  img {
+    width: 100%;
   }
   
   .wholesaling__info > p {
@@ -1067,64 +969,36 @@ body {
 
 /************** 4K ******************/
 @media only screen and (min-width:1401px) {
-  body {
-    overflow: hidden;
-  }
+  body { overflow: hidden; }
   
   .master-container {
     display: flex;
     width: 600vw;
   }
 
+  .bg-welcome { background: url('./assets/bgWelcomePC.jpg'); }
   
-  .bg-welcome {
-    background: url('./assets/bgWelcomePC.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
+  .bg-products { background: url('./assets/bgProductsPC.jpg'); }
   
-  .bg-products {
-    background: url('./assets/bgProductsPC.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
+  .bg-wholesaling { background: url('./assets/bgWholesalingPC.jpg'); }
   
-  .bg-wholesaling {
-    background: url('./assets/bgWholesalingPC.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
+  .bg-takeaway { background: url('./assets/bgTakeawayPC.jpg'); }
   
-  .bg-takeaway {
-    background: url('./assets/bgTakeawayPC.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
+  .bg-our-history { background: url('./assets/bgOurHistoryPC.jpg'); }
   
-  .bg-our-history {
-    background: url('./assets/bgOurHistoryPC.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
+  .bg-contact { background: url('./assets/bgContactPC.jpg'); }
   
+  .bg-welcome,
+  .bg-products,
+  .bg-wholesaling,
+  .bg-takeaway,
+  .bg-our-history,
   .bg-contact {
-    background: url('./assets/bgContactPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
   }
-  
+
   .nav {
     display: flex;
     position: fixed;
@@ -1134,9 +1008,7 @@ body {
     background-color: rgba(0,0,0,0.6);
   }
   
-  .nav-logo {
-    margin-left: 6%;
-  }
+  .nav-logo { margin-left: 6%; }
   
   .nav-logo > figure > img {
     width: 100%;
@@ -1144,7 +1016,6 @@ body {
   }
   
   .nav__elements__container {
-    background-color: rgba(0,0,0,0.6);
     height: 10%;
     width: 100%;
   }
@@ -1161,9 +1032,7 @@ body {
     border-bottom: 1px solid #fff;
   }
   
-  .nav__elements__info figure {
-    height: 50px;
-  }
+  .nav__elements__info figure { height: 50px; }
   
   .nav__elements__info > div figure {
     width: 25px;
@@ -1175,13 +1044,9 @@ body {
     height: 80%;
   }
   
-  .nav__elements__info > div {
-    display: flex;
-  }
+  .nav__elements__info > div { display: flex; }
   
-  .nav__elements__info > div > p {
-    line-height: 50px;
-  }
+  .nav__elements__info > div > p { line-height: 50px; }
   
   .nav__elements__links ul {
     display: flex;
@@ -1196,16 +1061,16 @@ body {
     color: #fff;
     text-decoration: none;
     text-transform: capitalize;
+    font-size: 1.5rem;
   }
   
   .main__welcome {
     color: white;
     display: flex;
+    margin-top: 12%;
   }
   
-  .welcome__info {
-    width: 94%;
-  }
+  .welcome__info { width: 94%; }
   
   .welcome__info > p {
     font-family: kenyanCoffee;
@@ -1224,10 +1089,11 @@ body {
   }
   
   .products {
+    display: flex;
     width: 100vw;
     height: 100vh;
-    display: flex;
     color:white;
+    margin-top: 12%;
   }
   
   .arrow {
@@ -1237,9 +1103,7 @@ body {
     transition: 0.5s all;
   }
   
-  .products__info {
-    width: 94%;
-  }
+  .products__info { width: 94%; }
   
   .products__info > p {
     font-family: kenyanCoffee;
@@ -1260,19 +1124,18 @@ body {
   }
   
   .products__icons img {
-    height: 18%;
+    height: 80%;
     transition: 0.5s all;
   }
   
-  .products__icons img:hover {
-    height: 22%;
-  }
+  .products__icons img:hover { height: 85%; }
   
   .wholesaling {
+    display: flex;
     width: 100vw;
     height: 100vh;
-    display: flex;
     color: white;
+    margin-top: 12%;
   }
   
   .wholesaling__info {
@@ -1286,9 +1149,7 @@ body {
     left: 37vw;
   }
   
-  .wholesaling__info > figure > a > img {
-    width: 30%;
-  }
+  .wholesaling__info > figure > a > img { width: 30%; }
   
   .wholesaling__info > p {
     position: relative;
@@ -1306,23 +1167,20 @@ body {
   }
   
   .takeaway {
+    display: flex;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    margin-top: 12%;
   }
   
-  .takeaway__info{
-    width: 88%;
-  }
+  .takeaway__info{ width: 88%; }
   
   .takeaway__info > figure{ 
     position: relative;
     top: -5vh;
     left: 76vw;
-  }
-  
-  .takeaway__info > figure > a > img {
-    width: 17%;
+    width: 15vw;
+    margin: 0;
   }
   
   .takeaway__info > p {
@@ -1341,9 +1199,10 @@ body {
   }
   
   .our-history {
+    display: flex;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    margin-top: 9%;
   }
   
   .our-history__info{
@@ -1374,10 +1233,11 @@ body {
   }
   
   .contact {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     color: white;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 11%;
   }
   
   .contact__info{
