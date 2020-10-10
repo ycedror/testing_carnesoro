@@ -749,16 +749,97 @@
   .nav__mobile {
     display: flex;
     justify-content: center;
-    align-items: center;
     position: fixed;
+    width: 100vw;
   }
 
-  .nav__mobile figure {
+  .nav__mobile__logo,
+  .nav__mobile__whatsapp,
+  .nav__mobile > div {
     width: 33%;
   }
 
-  .nav__mobile figure img {
-    width: 100%;
+  .nav__mobile__hamburguer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 15%;
+    background-color: rgba(255, 255, 255, 0.249);
+  }
+  
+  .nav__mobile__hamburguer > div {
+    background-color: rgba(255, 0, 0, 0.434);
+    margin:  5% auto;
+    width: 60%;
+    height: 5px;
+  }
+  
+  .nav__mobile__hamburguer-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 0, 0, 0.79);
+    display: none;
+  }
+
+  .close-nav__mobile {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 75%;
+    background-color: rgba(255, 255, 255, 0.818);
+  }
+
+  .close-nav__mobile > div {
+    background-color: rgb(255, 255, 255);
+    margin:  5% auto;
+    width: 90%;
+    height: 3px;
+  }
+
+  .close-nav__mobile > div:nth-child(1) {
+    transform: rotate(45deg);
+  }
+
+  .close-nav__mobile > div:nth-child(2) {
+    transform: rotate(135deg);
+  }
+
+  .nav__mobile__hamburguer-list ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-top: 10%;
+  }
+
+  .nav__mobile__hamburguer-list ul li {
+    margin-bottom: 15%;
+  }
+
+  .nav__mobile__hamburguer-list ul li a {
+    color: white;
+    font-size: 2.4rem;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+  .nav__mobile__logo > img {
+    width: 90%;
+  }
+
+  .nav__mobile__whatsapp > a > img {
+    width: 95%;
+    margin-top: 20%;
   }
 
   .main__welcome {
@@ -799,6 +880,7 @@
   
   .products__info {
     width: 86%;
+    padding-top: 40%;
     padding-left: 5%;
   }
   
@@ -820,9 +902,7 @@
     margin-top: 2rem;
   }
   
-  .products__icons img {
-    width: 90%;
-  }
+  .products__icons img { width: 90%; }
   
   .wholesaling {
     display: flex;
@@ -834,17 +914,12 @@
   
   .wholesaling__info {
     width: 90%;
+    padding-top: 60%;
     padding-left: 5%;
   }
   
   .wholesaling__info > figure {
-    margin-top: 5%;
-    margin-left: 45%;
-    margin-bottom: 25%;
-  }
-
-  .wholesaling__info > figure > a >  img {
-    width: 100%;
+    display: none;
   }
   
   .wholesaling__info > p {
@@ -868,17 +943,10 @@
   .takeaway__info{
     width: 86%;
     padding-left: 5%;
+    padding-top: 50%;
   }
   
-  .takeaway__info > figure{ 
-    margin-top: 5%;
-    margin-left: 45%;
-    margin-bottom: 10%;
-  }
-
-  .takeaway__info > figure > a >  img {
-    width: 100%;
-  }
+  .takeaway__info > figure { display: none; }
   
   .takeaway__info > p {
     font-family: kenyanCoffee;
@@ -903,17 +971,10 @@
   .our-history__info{
     width: 95%;
     padding-left: 5%;
+    padding-top: 50%;
   }
   
-  .our-history__info > figure {
-    margin-top: 5%;
-    margin-left: 45%;
-    margin-bottom: 10%;
-  }
-
-  .our-history__info > figure > a >  img {
-    width: 100%;
-  }
+  .our-history__info > figure { display: none; }
   
   .our-history__info > p {
     font-family: kenyanCoffee;
@@ -941,17 +1002,10 @@
   .contact__info {
     width: 86%;
     padding-left: 5%;
+    padding-top: 40%;
   }
   
-  .contact__info > figure { 
-    margin-top: 5%;
-    margin-left: 45%;
-    margin-bottom: 5%;
-  }
-
-  .contact__info > figure > a >  img {
-    width: 100%;
-  }
+  .contact__info > figure { display: none; }
   
   .contact__info > p {
     font-family: kenyanCoffee;
@@ -959,16 +1013,14 @@
     text-transform: capitalize;
   }
   
-  .contact__info > h2 {
-    display: none;
-  }
+  .contact__info > h2 { display: none; }
   
   .contact__branches {
-    margin-top: 2%;
+    margin-top: 10%;
     margin-bottom: 5%;
   }
   
-  .contact__branches > div { margin-bottom: 2%; }
+  .contact__branches > div { margin-bottom: 5%; }
   
   .contact__branches > div > h3 {
     text-transform: capitalize;
@@ -981,7 +1033,7 @@
     display: flex;
     justify-content: space-between;
     width: 70%;
-    margin:  5% auto;
+    margin:  10% auto;
   }
 }
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/

@@ -28,12 +28,29 @@
   <body>
     <nav class="nav__mobile">
       <div>
-
+        <div class="nav__mobile__hamburguer" id='hamburguer-menu'>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="nav__mobile__hamburguer-list">
+          <div class="close-nav__mobile">
+            <div></div>
+            <div></div>
+          </div>
+          <ul class='close-modal'>
+            <li><a href="#our-history" class="btn-vertical">nosotros</a></li>
+            <li><a href="#products" class="btn-vertical">productos</a></li>
+            <li><a href="#wholesaling" class="btn-vertical">mayoreo</a></li>
+            <li><a href="#takeaway" class="btn-vertical">servicio a domicilio</a></li>
+            <li><a href="#contact" class="btn-vertical">contacto</a></li>
+          </ul>
+        </div>
       </div>
-      <figure>
+      <figure class="nav__mobile__logo">
         <img src="./assets/logoCarnesOro.png" alt="carnes oro">
       </figure>
-      <figure>
+      <figure class="nav__mobile__whatsapp">
         <a href="https://wa.link/rzhh4g" target="_blank"><img src="./assets/labelCTA.png" alt="servicio a domicilio"></a>
       </figure>
     </nav>
@@ -143,7 +160,7 @@
             </div>
           </div>
           <figure class="arrow">
-          <a href="#wholesaling" class="btn"><img src="./assets/flechaDerecha.png" alt="Regreso"/></a>
+            <a href="#wholesaling" class="btn"><img src="./assets/flechaDerecha.png" alt="Regreso"/></a>
           </figure>
         </div>
       </section>
@@ -285,6 +302,22 @@
 					)
 				}
 			})
+
+      $('.btn-vertical').on('click',function(event){
+				if( this.hash !== '' ) {
+					event.preventDefault()
+						const hash = this.hash
+						$('html,body').animate({
+							scrollTop:$(hash).offset().top
+						},800
+					)
+				}
+			})
+
+      $('.close-modal').on('click', function() {
+        console.log("yeah")
+        $('#close-modal').css({'display':'visible'})
+      })
     
     </script>
   </body>
