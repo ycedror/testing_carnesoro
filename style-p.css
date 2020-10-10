@@ -14,7 +14,7 @@
 @media only screen and (max-width:1400px) and (min-width:1000px) {
 
   .bg-product {
-    background: url('./assets/bgProduct.jpg') no-repeat;
+    background: url('./assets/bgProduct.jpg') no-repeat center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -83,9 +83,158 @@
     text-decoration: none;
     text-transform: capitalize;
   }
+
+  .bg-product{
+    display:flex;
+    justify-content: space-around;
+    height: 120vh;
+    padding-right: 20vw;
+    padding-left: 10vw;
+  } 
   
+  .products__container-left,
+  .products__container-right {
+    padding-top: 20vh;
+    align-self: center;
+  }
   
- 
+  .bg-product > figure {
+    position: absolute;
+    padding-top: 18vh;
+    left: 79vw;
+  }
+  
+  .beef-national__container,
+  .beef-imported__container,
+  .pork__container,
+  .bird__container,
+  .seafood__container,
+  .cheese__container,
+  .accesories__container{
+    display:flex;
+    color:#fff;
+    align-items: center;
+    margin: 1rem;
+  }
+  
+  .beef-national__container figure,
+  .beef-imported__container figure,
+  .pork__container figure,
+  .bird__container figure,
+  .seafood__container figure,
+  .cheese__container figure,
+  .accesories__container figure {
+    padding: 5%;
+    background-color:rgba(0,0,0,0.8);
+    border-right: 2px solid red;
+  }
+
+  .beef-national__container figure > img,
+  .beef-imported__container figure > img,
+  .pork__container figure > img,
+  .bird__container figure > img,
+  .seafood__container figure > img,
+  .cheese__container figure > img,
+  .accesories__container figure > img {
+    width: 5vw;
+  }
+
+
+  .beef-national__container > div,
+  .beef-imported__container > div,
+  .pork__container > div,
+  .bird__container > div,
+  .seafood__container > div,
+  .cheese__container > div,
+  .accesories__container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 22vw;
+    height: 16vh;
+    padding: 0 5%;
+    background-color:rgba(0, 0, 0, 0.5);
+  }
+
+  .beef-national__container > div > h3,
+  .beef-imported__container > div > h3,
+  .pork__container > div > h3,
+  .bird__container > div > h3,
+  .seafood__container > div > h3,
+  .cheese__container > div > h3,
+  .accesories__container > div > h3 {
+    font-weight: lighter;
+  }
+
+  .product__beef-national__container,
+  .product__beef-imported__container,    
+  .product__pork__container,    
+  .product__bird__container,    
+  .product__seafood__container,    
+  .product__cheese__container,    
+  .product__accesories__container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(213, 213, 213);
+  }
+
+  .product__beef-national__container aside,
+  .product__beef-imported__container aside,
+  .product__pork__container aside,
+  .product__bird__container aside,
+  .product__seafood__container aside,
+  .product__cheese__container aside,
+  .product__accesories__container aside {
+    width: 5vw;
+    padding-top: 14%;
+  }
+
+  .product__beef-national__container aside ul li,
+  .product__beef-imported__container aside ul li,
+  .product__pork__container aside ul li,
+  .product__bird__container aside ul li,
+  .product__seafood__container aside ul li,
+  .product__cheese__container aside ul li,
+  .product__accesories__container aside ul li {
+    background-color: black;
+    border: 1px solid white;
+    padding: 15%;
+  }
+
+  .product__beef-national__container aside ul li:nth-child(1),
+  .product__beef-imported__container aside ul li:nth-child(2),
+  .product__pork__container aside ul li:nth-child(3),
+  .product__bird__container aside ul li:nth-child(4),
+  .product__seafood__container aside ul li:nth-child(5),
+  .product__cheese__container aside ul li:nth-child(6),
+  .product__accesories__container aside ul li:nth-child(7) {
+    background-color: rgb(186, 0, 0);
+    border: 1px solid white;
+    padding: 15%;
+  }
+  
+  .product__beef-national__container aside ul li a img,
+  .product__beef-imported__container aside ul li a img,
+  .product__pork__container aside ul li a img,
+  .product__bird__container aside ul li a img,
+  .product__seafood__container aside ul li a img,
+  .product__cheese__container aside ul li a img,
+  .product__accesories__container aside ul li a img {
+    width: 90%;
+  }
+
+  .product-card h3 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+
+  .product-card a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+    background-color: rgb(188, 0, 0);
+  }
+
 }
 /************** PC NORMAL ******************/
 
