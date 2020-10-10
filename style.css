@@ -19,6 +19,13 @@ body {
   width: 600vw;
 }
 
+.nav-hamburger {
+  display: none;
+}
+
+.nav-whatsapp {
+ display: none;
+}
 
 /************** PC NORMAL ******************/
 @media only screen and (max-width:1400px) and (min-width:1000px) {
@@ -383,7 +390,7 @@ body {
 
 
 /************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
-@media only screen and (min-width: 700px) and (max-width: 999px) {
+@media only screen and (min-width: 701px) and (max-width: 999px) {
   
   body {
     overflow: hidden;
@@ -722,23 +729,29 @@ body {
 
 
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
-@media only screen and (max-width: 699px) {
+@media only screen and (max-width: 700px) {
   
-  body {
+  /* body {
     overflow: hidden;
-  }
+  } */
   
   .master-container {
-    display: flex;
-    width: 600vw;
+    width: 100%;
+    /* overflow-x: hidden; */
+    
+    /* overflow: hidden; */
+    /* width: 600vw; */
   }
 
   .bg-welcome {
     background: url('./assets/bgWelcomePC.jpg');
     background-size: cover;
+    background-position: center;
+    /* background-size: cover; */
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    /* height: 100vh; */
+    padding-top: 15%;
+    /* overflow: hidden; */
   }
   
   .bg-products {
@@ -746,7 +759,8 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    padding-top: 120px;
+    /* overflow: hidden; */
   }
   
   .bg-wholesaling {
@@ -754,7 +768,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .bg-takeaway {
@@ -762,7 +776,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .bg-our-history {
@@ -770,7 +784,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .bg-contact {
@@ -778,7 +792,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .nav {
@@ -786,23 +800,39 @@ body {
     position: fixed;
     color: white;
     width: 100vw;
-    height: 15%;
-    background-color: rgba(0,0,0,0.6);
+    /* height: 15%; */
+    /* background-color: rgba(0,0,0,0.6); */
   }
   
-  .nav-logo {
+  /* .nav-logo {
     margin-left: 6%;
-  }
-  
+  } */
+
+ .nav-hamburger {
+  display: flex; 
+  width: 33vw;
+ }
+
   .nav-logo > figure > img {
-    width: 100%;
-    height: 100%;
+    width: 33vw;
+    /* height: 100%; */
   }
   
+  
+  /* .nav-whatsapp{
+    display:flex ;
+  }
+   */
+  .nav-whatsapp > figure > img {
+    display:flex;
+    width: 25vw;
+  }
+
   .nav__elements__container {
-    background-color: rgba(0,0,0,0.6);
+    display: none;
+    /* background-color: rgba(0,0,0,0.6);
     height: 10%;
-    width: 100%;
+    width: 100%; */
   }
   
   .nav__elements__info {
@@ -857,6 +887,10 @@ body {
   .main__welcome {
     color: white;
     display: flex;
+    width: 100vw;
+    padding-top: 15%;
+    justify-content: center;
+    
   }
   
   .welcome__info {
@@ -1061,9 +1095,6 @@ body {
   }
 }
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
-
-
-
 
 /************** 4K ******************/
 @media only screen and (min-width:1401px) {
