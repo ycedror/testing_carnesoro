@@ -67,7 +67,6 @@
   .nav {
     display: flex;
     position: fixed;
-    color: white;
     width: 100vw;
     height: 15%;
     background-color: rgba(0,0,0,0.6);
@@ -128,6 +127,11 @@
     text-transform: capitalize;
   }
   
+.main__welcome, .products, .wholesaling, .contact, .takeaway, .our-history{
+  margin-top: 18%;
+}
+
+
   .main__welcome {
     color: white;
     display: flex;
@@ -244,6 +248,7 @@
   
   .takeaway__info > figure > a > img {
     width: 17%;
+    position: fixed;
   }
   
   .takeaway__info > p {
@@ -374,11 +379,15 @@
 /************** PC NORMAL ******************/
 
 /************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
+<<<<<<< HEAD
 @media only screen and (min-width: 701px) and (max-width: 999px) {
   
   body {
     overflow: hidden;
   }
+=======
+@media only screen and (max-width: 999px) and (min-width: 700px) {
+>>>>>>> 49cfa7b149ecfb5d717e05c59996e4d39cbfc869
   
   .master-container {
     display: flex;
@@ -982,8 +991,12 @@
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
 
 /************** 4K ******************/
+<<<<<<< HEAD
 @media only screen and (min-width:1401px) {
   body { overflow: hidden; }
+=======
+@media only screen and (min-width:1301px) {
+>>>>>>> 49cfa7b149ecfb5d717e05c59996e4d39cbfc869
   
   .master-container {
     display: flex;
