@@ -388,7 +388,7 @@
   }
 
   .bg-welcome {
-    background: url('./assets/bgWelcome.jpg');
+    background: url('./assets/bgWelcomePC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -396,7 +396,7 @@
   }
   
   .bg-products {
-    background: url('./assets/bgProducts.jpg');
+    background: url('./assets/bgProductsPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -404,7 +404,7 @@
   }
   
   .bg-wholesaling {
-    background: url('./assets/bgWholesaling.jpg');
+    background: url('./assets/bgWholesalingPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -412,7 +412,7 @@
   }
   
   .bg-takeaway {
-    background: url('./assets/bgTakeaway.jpg');
+    background: url('./assets/bgTakeawayPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -420,7 +420,7 @@
   }
   
   .bg-our-history {
-    background: url('./assets/bgOurHistory.jpg');
+    background: url('./assets/bgOurHistoryPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -428,7 +428,7 @@
   }
   
   .bg-contact {
-    background: url('./assets/bgContacto.jpg');
+    background: url('./assets/bgContactPC.jpg');
     background-size: cover;
     width: 100%;
     height: 100vh;
