@@ -379,15 +379,7 @@
 /************** PC NORMAL ******************/
 
 /************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
-<<<<<<< HEAD
-@media only screen and (min-width: 701px) and (max-width: 999px) {
-  
-  body {
-    overflow: hidden;
-  }
-=======
 @media only screen and (max-width: 999px) and (min-width: 700px) {
->>>>>>> 49cfa7b149ecfb5d717e05c59996e4d39cbfc869
   
   .master-container {
     display: flex;
@@ -1046,12 +1038,7 @@
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
 
 /************** 4K ******************/
-<<<<<<< HEAD
-@media only screen and (min-width:1401px) {
-  body { overflow: hidden; }
-=======
 @media only screen and (min-width:1301px) {
->>>>>>> 49cfa7b149ecfb5d717e05c59996e4d39cbfc869
   
   .master-container {
     display: flex;
