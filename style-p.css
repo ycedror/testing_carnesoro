@@ -224,15 +224,43 @@
     width: 90%;
   }
 
+  .products-cards__container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20% auto;
+  }
+
+  .products-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+  }
+
+  .product-card {
+    width: 30%;
+    background-color: white;
+  }
+
   .product-card h3 {
     color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: center;
     background-color: rgb(0, 0, 0);
   }
 
   .product-card a {
+    display: block;
     color: rgb(255,255,255);
     text-decoration: none;
+    text-align: center;
     background-color: rgb(188, 0, 0);
+  }
+
+  .product-card p {
+    font-size: 0.7rem;
+    border-bottom: 4px solid red;
+    padding: 1% 15%;
   }
 
 }
@@ -242,7 +270,255 @@
 
 /************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
 @media only screen and (min-width: 700px) and (max-width: 999px) {
+  .bg-product {
+    background: url('./assets/bgProduct.jpg') no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .nav {
+    display: flex;
+    position: fixed;
+    color: white;
+    width: 100vw;
+    height: 8%;
+    background-color: rgba(0,0,0,0.6);
+  }
   
+  .nav-logo { margin-left: 6%; }
+  
+  .nav-logo > figure > img {
+    width: 80%;
+    height: 100%;
+  }
+  
+  .nav__elements__container {
+    height: 10%;
+    width: 100%;
+  }
+  
+  .nav__elements__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 6%;
+    padding-top: 1%;
+    padding-left: 8%;
+    padding-right: 9%;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .nav__elements__info figure { height: 40px; }
+  
+  .nav__elements__info > div { display: flex; }
+
+  .nav__elements__info > div figure {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .nav__elements__arrow {
+    cursor: pointer;
+    height: 80%;
+  }
+  
+  .nav__elements__info > div > p { line-height: 50px; }
+  
+  .nav__elements__links ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 90%;
+    margin-left: 8%;
+    padding-top: 0.5%;
+  }
+  
+  .nav__elements__links ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+  .bg-product{
+    display:flex;
+    justify-content: space-around;
+    height: 100vh;
+    padding-left: 5vw;
+  } 
+  
+  .products__container-left,
+  .products__container-right {
+    padding-top: 10vh;
+    align-self: center;
+  }
+  
+  .bg-product > figure {
+    position: absolute;
+    padding-top: 18vh;
+    left: 65vw;
+  }
+  
+  .beef-national__container,
+  .beef-imported__container,
+  .pork__container,
+  .bird__container,
+  .seafood__container,
+  .cheese__container,
+  .accesories__container{
+    display:flex;
+    color:#fff;
+    align-items: center;
+    margin: 1rem;
+  }
+  
+  .beef-national__container figure,
+  .beef-imported__container figure,
+  .pork__container figure,
+  .bird__container figure,
+  .seafood__container figure,
+  .cheese__container figure,
+  .accesories__container figure {
+    padding: 5%;
+    background-color:rgba(0,0,0,0.8);
+    border-right: 2px solid red;
+  }
+
+  .beef-national__container figure > img,
+  .beef-imported__container figure > img,
+  .pork__container figure > img,
+  .bird__container figure > img,
+  .seafood__container figure > img,
+  .cheese__container figure > img,
+  .accesories__container figure > img {
+    width: 10vw;
+  }
+
+
+  .beef-national__container > div,
+  .beef-imported__container > div,
+  .pork__container > div,
+  .bird__container > div,
+  .seafood__container > div,
+  .cheese__container > div,
+  .accesories__container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 28vw;
+    height: 9vh;
+    padding: 0 5%;
+    background-color:rgba(0, 0, 0, 0.5);
+  }
+
+  .beef-national__container > div > h3,
+  .beef-imported__container > div > h3,
+  .pork__container > div > h3,
+  .bird__container > div > h3,
+  .seafood__container > div > h3,
+  .cheese__container > div > h3,
+  .accesories__container > div > h3 {
+    font-weight: lighter;
+  }
+
+  .product__beef-national__container,
+  .product__beef-imported__container,    
+  .product__pork__container,    
+  .product__bird__container,    
+  .product__seafood__container,    
+  .product__cheese__container,    
+  .product__accesories__container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(213, 213, 213);
+  }
+
+  .product__beef-national__container aside,
+  .product__beef-imported__container aside,
+  .product__pork__container aside,
+  .product__bird__container aside,
+  .product__seafood__container aside,
+  .product__cheese__container aside,
+  .product__accesories__container aside {
+    width: 10vw;
+    padding-top: 45%;
+  }
+
+  .product__beef-national__container aside ul li,
+  .product__beef-imported__container aside ul li,
+  .product__pork__container aside ul li,
+  .product__bird__container aside ul li,
+  .product__seafood__container aside ul li,
+  .product__cheese__container aside ul li,
+  .product__accesories__container aside ul li {
+    background-color: black;
+    border: 1px solid white;
+    padding: 15%;
+  }
+
+  .product__beef-national__container aside ul li:nth-child(1),
+  .product__beef-imported__container aside ul li:nth-child(2),
+  .product__pork__container aside ul li:nth-child(3),
+  .product__bird__container aside ul li:nth-child(4),
+  .product__seafood__container aside ul li:nth-child(5),
+  .product__cheese__container aside ul li:nth-child(6),
+  .product__accesories__container aside ul li:nth-child(7) {
+    background-color: rgb(186, 0, 0);
+    border: 1px solid white;
+    padding: 15%;
+  }
+  
+  .product__beef-national__container aside ul li a img,
+  .product__beef-imported__container aside ul li a img,
+  .product__pork__container aside ul li a img,
+  .product__bird__container aside ul li a img,
+  .product__seafood__container aside ul li a img,
+  .product__cheese__container aside ul li a img,
+  .product__accesories__container aside ul li a img {
+    width: 90%;
+  }
+
+  .products-cards__container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 50% auto;
+  }
+
+  .products-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+  }
+
+  .product-card {
+    width: 30%;
+    background-color: white;
+  }
+
+  .product-card h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .product-card a {
+    display: block;
+    color: rgb(255,255,255);
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(188, 0, 0);
+  }
+
+  .product-card p {
+    font-size: 0.7rem;
+    border-bottom: 4px solid red;
+    padding: 1% 15%;
+  }
+
 }
 /************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
 
@@ -251,7 +527,313 @@
 
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
 @media only screen and (max-width: 699px) {
- 
+  .bg-product {
+    background: url('./assets/bgProduct.jpg') no-repeat left;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .nav {
+    display: none;
+  }
+  
+  .nav__mobile {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+  }
+
+  .nav__mobile__logo,
+  .nav__mobile__whatsapp,
+  .nav__mobile > div {
+    width: 33%;
+  }
+
+  .nav__mobile__hamburguer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 15%;
+    background-color: rgba(255, 255, 255, 0.859);
+    -webkit-box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
+    -moz-box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
+    box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
+  }
+  
+  .nav__mobile__hamburguer > div {
+    background-color: rgba(0, 0, 0, 0.612);
+    margin:  5% auto;
+    width: 60%;
+    height: 5px;
+  }
+  
+  .nav__mobile__hamburguer-list {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.886);
+  }
+
+  .close-nav__mobile {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 75%;
+    background-color: rgba(255, 255, 255, 0.818);
+  }
+
+  .close-nav__mobile > div {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 3px;
+  }
+
+  .close-nav__mobile > div:nth-child(1) { 
+    transform: 
+      rotate(45deg) 
+      translate(30px,10px); 
+  }
+
+  .close-nav__mobile > div:nth-child(2) {
+    transform: 
+      rotate(135deg) 
+      translate(30px,-10px);
+  }
+
+  .nav__mobile__hamburguer-list ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-top: 10%;
+  }
+
+  .nav__mobile__hamburguer-list ul li {
+    margin-bottom: 15%;
+  }
+
+  .nav__mobile__hamburguer-list ul li a {
+    color: white;
+    font-size: 2.4rem;
+    font-family: kenyanCoffee;;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+  .nav__mobile__logo > img {
+    width: 90%;
+  }
+
+  .nav__mobile__whatsapp > a > img {
+    width: 95%;
+    margin-top: 20%;
+  }
+
+
+  .bg-product{
+    display:flex;
+    justify-content: space-around;
+    height: 100vh;
+    padding-left: 1vw;
+  } 
+  
+  .products__container-left,
+  .products__container-right {
+    padding-top: 5vh;
+    align-self: center;
+  }
+  
+  .bg-product > figure {
+    display: none;
+  }
+  
+  .beef-national__container,
+  .beef-imported__container,
+  .pork__container,
+  .bird__container,
+  .seafood__container,
+  .cheese__container,
+  .accesories__container{
+    display:flex;
+    color:#fff;
+    align-items: center;
+    margin: 1rem;
+  }
+  
+  .beef-national__container figure,
+  .beef-imported__container figure,
+  .pork__container figure,
+  .bird__container figure,
+  .seafood__container figure,
+  .cheese__container figure,
+  .accesories__container figure {
+    padding: 5%;
+    background-color:rgba(0,0,0,0.8);
+    border-right: 2px solid red;
+  }
+
+  .beef-national__container figure > a > img,
+  .beef-imported__container figure > a > img,
+  .pork__container figure > a > img,
+  .bird__container figure >  a > img,
+  .seafood__container figure > a > img,
+  .cheese__container figure > a > img,
+  .accesories__container figure > a > img {
+    width: 15vw;
+  }
+
+  .beef-national__container > div,
+  .beef-imported__container > div,
+  .pork__container > div,
+  .bird__container > div,
+  .seafood__container > div,
+  .cheese__container > div,
+  .accesories__container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 28vw;
+    height: 9vh;
+    padding: 0 5%;
+    background-color:rgba(0, 0, 0, 0.5);
+  }
+
+  .beef-national__container > div > h3,
+  .beef-imported__container > div > h3,
+  .pork__container > div > h3,
+  .bird__container > div > h3,
+  .seafood__container > div > h3,
+  .cheese__container > div > h3,
+  .accesories__container > div > h3 {
+    font-size: 0.8rem;
+  }
+
+  .beef-national__container > div > p,
+  .beef-imported__container > div > p,
+  .pork__container > div > p,
+  .bird__container > div > p,
+  .seafood__container > div > p,
+  .cheese__container > div > p,
+  .accesories__container > div > p {
+    font-weight: lighter;
+    font-size: 0.6rem;
+  }
+
+  .product__beef-national__container,
+  .product__beef-imported__container,    
+  .product__pork__container,    
+  .product__bird__container,    
+  .product__seafood__container,    
+  .product__cheese__container,    
+  .product__accesories__container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(213, 213, 213);
+  }
+
+  .product__beef-national__container aside,
+  .product__beef-imported__container aside,
+  .product__pork__container aside,
+  .product__bird__container aside,
+  .product__seafood__container aside,
+  .product__cheese__container aside,
+  .product__accesories__container aside {
+    width: 15vw;
+    padding-top: 45%;
+  }
+
+  .product__beef-national__container aside ul li,
+  .product__beef-imported__container aside ul li,
+  .product__pork__container aside ul li,
+  .product__bird__container aside ul li,
+  .product__seafood__container aside ul li,
+  .product__cheese__container aside ul li,
+  .product__accesories__container aside ul li {
+    background-color: black;
+    border: 1px solid white;
+    padding: 15%;
+  }
+
+  .product__beef-national__container aside ul li:nth-child(1),
+  .product__beef-imported__container aside ul li:nth-child(2),
+  .product__pork__container aside ul li:nth-child(3),
+  .product__bird__container aside ul li:nth-child(4),
+  .product__seafood__container aside ul li:nth-child(5),
+  .product__cheese__container aside ul li:nth-child(6),
+  .product__accesories__container aside ul li:nth-child(7) {
+    background-color: rgb(186, 0, 0);
+    border: 1px solid white;
+    padding: 15%;
+  }
+  
+  .product__beef-national__container aside ul li a img,
+  .product__beef-imported__container aside ul li a img,
+  .product__pork__container aside ul li a img,
+  .product__bird__container aside ul li a img,
+  .product__seafood__container aside ul li a img,
+  .product__cheese__container aside ul li a img,
+  .product__accesories__container aside ul li a img {
+    width: 90%;
+  }
+
+  .products-cards__container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 50% auto;
+  }
+
+  .products-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+  }
+
+  .product-price {
+    color: red;
+    border-left: 4px solid red;
+  }
+
+  .product-card {
+    width: 30%;
+    background-color: white;
+  }
+
+  .product-card h3 {
+    color: rgb(255, 255, 255);
+    font-size: 0.6rem;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .product-card a {
+    display: block;
+    color: rgb(255,255,255);
+    font-size: 0.7rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(188, 0, 0);
+  }
+
+  .product-card p {
+    font-size: 0.6rem;
+    border-bottom: 4px solid red;
+    padding: 1% 10%;
+  }
 }
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
 
@@ -260,6 +842,256 @@
 
 /************** 4K ******************/
 @media only screen and (min-width:1401px) {
- 
+  .bg-product {
+    background: url('./assets/bgProduct.jpg') no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .nav {
+    display: flex;
+    position: fixed;
+    color: white;
+    width: 100vw;
+    height: 13%;
+    background-color: rgba(0,0,0,0.6);
+  }
+  
+  .nav-logo { margin-left: 6%; }
+  
+  .nav-logo > figure > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .nav__elements__container {
+    height: 10%;
+    width: 100%;
+  }
+  
+  .nav__elements__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin-left: 6%;
+    padding-top: 1%;
+    padding-left: 8%;
+    padding-right: 9%;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .nav__elements__info figure { height: 40px; }
+  
+  .nav__elements__info > div { display: flex; }
+
+  .nav__elements__info > div figure {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .nav__elements__arrow {
+    cursor: pointer;
+    height: 80%;
+  }
+  
+  .nav__elements__info > div > p { line-height: 50px; }
+  
+  .nav__elements__links ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 90%;
+    margin-left: 8%;
+    padding-top: 0.5%;
+  }
+  
+  .nav__elements__links ul li a {
+    color: #fff;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+  .bg-product{
+    display:flex;
+    justify-content: space-around;
+    height: 100vh;
+    padding-right: 20vw;
+    padding-left: 10vw;
+  } 
+  
+  .products__container-left,
+  .products__container-right {
+    padding-top: 20vh;
+    align-self: center;
+  }
+  
+  .bg-product > figure {
+    position: absolute;
+    padding-top: 18vh;
+    left: 79vw;
+  }
+  
+  .beef-national__container,
+  .beef-imported__container,
+  .pork__container,
+  .bird__container,
+  .seafood__container,
+  .cheese__container,
+  .accesories__container{
+    display:flex;
+    color:#fff;
+    align-items: center;
+    margin: 1rem;
+
+  }
+  
+  .beef-national__container figure,
+  .beef-imported__container figure,
+  .pork__container figure,
+  .bird__container figure,
+  .seafood__container figure,
+  .cheese__container figure,
+  .accesories__container figure {
+    padding: 5%;
+    background-color:rgba(0,0,0,0.8);
+    border-right: 2px solid red;
+  }
+
+  .beef-national__container figure > img,
+  .beef-imported__container figure > img,
+  .pork__container figure > img,
+  .bird__container figure > img,
+  .seafood__container figure > img,
+  .cheese__container figure > img,
+  .accesories__container figure > img {
+    width: 5vw;
+  }
+
+
+  .beef-national__container > div,
+  .beef-imported__container > div,
+  .pork__container > div,
+  .bird__container > div,
+  .seafood__container > div,
+  .cheese__container > div,
+  .accesories__container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 22vw;
+    height: 13vh;
+    padding: 0 5%;
+    background-color:rgba(0, 0, 0, 0.5);
+  }
+
+  .beef-national__container > div > h3,
+  .beef-imported__container > div > h3,
+  .pork__container > div > h3,
+  .bird__container > div > h3,
+  .seafood__container > div > h3,
+  .cheese__container > div > h3,
+  .accesories__container > div > h3 {
+    font-weight: lighter;
+  }
+
+  .product__beef-national__container,
+  .product__beef-imported__container,    
+  .product__pork__container,    
+  .product__bird__container,    
+  .product__seafood__container,    
+  .product__cheese__container,    
+  .product__accesories__container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(213, 213, 213);
+  }
+
+  .product__beef-national__container aside,
+  .product__beef-imported__container aside,
+  .product__pork__container aside,
+  .product__bird__container aside,
+  .product__seafood__container aside,
+  .product__cheese__container aside,
+  .product__accesories__container aside {
+    width: 5vw;
+    padding-top: 14%;
+  }
+
+  .product__beef-national__container aside ul li,
+  .product__beef-imported__container aside ul li,
+  .product__pork__container aside ul li,
+  .product__bird__container aside ul li,
+  .product__seafood__container aside ul li,
+  .product__cheese__container aside ul li,
+  .product__accesories__container aside ul li {
+    background-color: black;
+    border: 1px solid white;
+    padding: 15%;
+  }
+
+  .product__beef-national__container aside ul li:nth-child(1),
+  .product__beef-imported__container aside ul li:nth-child(2),
+  .product__pork__container aside ul li:nth-child(3),
+  .product__bird__container aside ul li:nth-child(4),
+  .product__seafood__container aside ul li:nth-child(5),
+  .product__cheese__container aside ul li:nth-child(6),
+  .product__accesories__container aside ul li:nth-child(7) {
+    background-color: rgb(186, 0, 0);
+    border: 1px solid white;
+    padding: 15%;
+  }
+  
+  .product__beef-national__container aside ul li a img,
+  .product__beef-imported__container aside ul li a img,
+  .product__pork__container aside ul li a img,
+  .product__bird__container aside ul li a img,
+  .product__seafood__container aside ul li a img,
+  .product__cheese__container aside ul li a img,
+  .product__accesories__container aside ul li a img {
+    width: 90%;
+  }
+
+  .products-cards__container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20% auto;
+  }
+
+  .products-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+  }
+
+  .product-card {
+    width: 30%;
+    background-color: white;
+  }
+
+  .product-card h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .product-card a {
+    display: block;
+    color: rgb(255,255,255);
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(188, 0, 0);
+  }
+
+  .product-card p {
+    font-size: 0.7rem;
+    border-bottom: 4px solid red;
+    padding: 1% 15%;
+  }
 }
 /************** 4K ******************/
