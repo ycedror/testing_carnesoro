@@ -20,6 +20,10 @@
     height: 100vh;
   }
 
+  .nav__mobile {
+    display: none;
+  }
+
   .nav {
     display: flex;
     position: fixed;
@@ -275,6 +279,10 @@
     background-size: cover;
     width: 100vw;
     height: 100vh;
+  }
+  
+  .nav__mobile {
+    display: none;
   }
 
   .nav {
@@ -847,6 +855,10 @@
     background-size: cover;
     width: 100vw;
     height: 100vh;
+  }
+
+  .nav__mobile {
+    display: none;
   }
 
   .nav {
