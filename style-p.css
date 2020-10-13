@@ -14,10 +14,15 @@
 @media only screen and (max-width:1400px) and (min-width:1000px) {
 
   .bg-product {
+    display:flex;
+    justify-content: space-around;
     background: url('./assets/bgProduct.jpg') no-repeat center;
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 120vh;
+    padding-right: 20vw;
+    padding-left: 10vw;
+    overflow: hidden;
   }
 
   .nav__mobile {
@@ -87,14 +92,6 @@
     text-decoration: none;
     text-transform: capitalize;
   }
-
-  .bg-product{
-    display:flex;
-    justify-content: space-around;
-    height: 120vh;
-    padding-right: 20vw;
-    padding-left: 10vw;
-  } 
   
   .products__container-left,
   .products__container-right {
@@ -119,6 +116,7 @@
     color:#fff;
     align-items: center;
     margin: 1rem;
+    overflow: hidden;
   }
   
   .beef-national__container figure,
@@ -133,16 +131,15 @@
     border-right: 2px solid red;
   }
 
-  .beef-national__container figure > img,
-  .beef-imported__container figure > img,
-  .pork__container figure > img,
-  .bird__container figure > img,
-  .seafood__container figure > img,
-  .cheese__container figure > img,
-  .accesories__container figure > img {
+  .beef-national__container figure > a > img,
+  .beef-imported__container figure > a >img,
+  .pork__container figure > a > img,
+  .bird__container figure > a > img,
+  .seafood__container figure > a > img,
+  .cheese__container figure > a > img,
+  .accesories__container figure > a > img {
     width: 5vw;
   }
-
 
   .beef-national__container > div,
   .beef-imported__container > div,
@@ -178,9 +175,10 @@
   .product__cheese__container,    
   .product__accesories__container {
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: rgb(213, 213, 213);
+    overflow: hidden;
   }
 
   .product__beef-national__container aside,
@@ -241,6 +239,11 @@
     margin-bottom: 5%;
   }
 
+  .product-price {
+    color: red;
+    border-left: 4px solid red;
+  }
+
   .product-card {
     width: 30%;
     background-color: white;
@@ -274,11 +277,15 @@
 
 /************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
 @media only screen and (min-width: 700px) and (max-width: 999px) {
+  
   .bg-product {
+    display:flex;
+    justify-content: space-around;
     background: url('./assets/bgProduct.jpg') no-repeat center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    padding-left: 5vw;
   }
   
   .nav__mobile {
@@ -350,10 +357,7 @@
   }
 
   .bg-product{
-    display:flex;
-    justify-content: space-around;
-    height: 100vh;
-    padding-left: 5vw;
+
   } 
   
   .products__container-left,
@@ -393,14 +397,14 @@
     border-right: 2px solid red;
   }
 
-  .beef-national__container figure > img,
-  .beef-imported__container figure > img,
-  .pork__container figure > img,
-  .bird__container figure > img,
-  .seafood__container figure > img,
-  .cheese__container figure > img,
-  .accesories__container figure > img {
-    width: 10vw;
+  .beef-national__container figure > a > img,
+  .beef-imported__container figure > a > img,
+  .pork__container figure > a > img,
+  .bird__container figure > a > img,
+  .seafood__container figure > a > img,
+  .cheese__container figure > a > img,
+  .accesories__container figure > a > img {
+    width: 6vw;
   }
 
 
@@ -415,7 +419,7 @@
     flex-direction: column;
     justify-content: center;
     width: 28vw;
-    height: 9vh;
+    height: 12vh;
     padding: 0 5%;
     background-color:rgba(0, 0, 0, 0.5);
   }
@@ -441,6 +445,7 @@
     width: 100vw;
     height: 100vh;
     background-color: rgb(213, 213, 213);
+    overflow: hidden;
   }
 
   .product__beef-national__container aside,
@@ -501,6 +506,11 @@
     margin-bottom: 5%;
   }
 
+  .product-price {
+    color: red;
+    border-left: 4px solid red;
+  }
+
   .product-card {
     width: 30%;
     background-color: white;
@@ -535,11 +545,15 @@
 
 /************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
 @media only screen and (max-width: 699px) {
+  
   .bg-product {
+    display:flex;
+    justify-content: space-around;
     background: url('./assets/bgProduct.jpg') no-repeat left;
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    padding-left: 1vw;
   }
 
   .nav {
@@ -649,14 +663,6 @@
     width: 95%;
     margin-top: 20%;
   }
-
-
-  .bg-product{
-    display:flex;
-    justify-content: space-around;
-    height: 100vh;
-    padding-left: 1vw;
-  } 
   
   .products__container-left,
   .products__container-right {
@@ -751,6 +757,7 @@
     width: 100vw;
     height: 100vh;
     background-color: rgb(213, 213, 213);
+    overflow: hidden;
   }
 
   .product__beef-national__container aside,
@@ -851,10 +858,14 @@
 /************** 4K ******************/
 @media only screen and (min-width:1401px) {
   .bg-product {
+    display:flex;
+    justify-content: space-around;
     background: url('./assets/bgProduct.jpg') no-repeat center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    padding-right: 20vw;
+    padding-left: 10vw;
   }
 
   .nav__mobile {
@@ -925,14 +936,6 @@
     text-decoration: none;
     text-transform: capitalize;
   }
-
-  .bg-product{
-    display:flex;
-    justify-content: space-around;
-    height: 100vh;
-    padding-right: 20vw;
-    padding-left: 10vw;
-  } 
   
   .products__container-left,
   .products__container-right {
@@ -943,7 +946,7 @@
   .bg-product > figure {
     position: absolute;
     padding-top: 18vh;
-    left: 79vw;
+    left: 82vw;
   }
   
   .beef-national__container,
@@ -972,16 +975,15 @@
     border-right: 2px solid red;
   }
 
-  .beef-national__container figure > img,
-  .beef-imported__container figure > img,
-  .pork__container figure > img,
-  .bird__container figure > img,
-  .seafood__container figure > img,
-  .cheese__container figure > img,
-  .accesories__container figure > img {
+  .beef-national__container figure > a > img,
+  .beef-imported__container figure > a > img,
+  .pork__container figure > a > img,
+  .bird__container figure > a > img,
+  .seafood__container figure > a > img,
+  .cheese__container figure > a > img,
+  .accesories__container figure > a > img {
     width: 5vw;
   }
-
 
   .beef-national__container > div,
   .beef-imported__container > div,
@@ -994,7 +996,7 @@
     flex-direction: column;
     justify-content: center;
     width: 22vw;
-    height: 13vh;
+    height: 14vh;
     padding: 0 5%;
     background-color:rgba(0, 0, 0, 0.5);
   }
@@ -1017,9 +1019,10 @@
   .product__cheese__container,    
   .product__accesories__container {
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: rgb(213, 213, 213);
+    overflow: hidden;
   }
 
   .product__beef-national__container aside,
@@ -1078,6 +1081,12 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 5%;
+  }
+
+  .product-price {
+    color: red;
+    border-left: 4px solid red;
+    font-size: 6rem;
   }
 
   .product-card {

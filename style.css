@@ -76,7 +76,7 @@
   .nav-logo { margin-left: 6%; }
   
   .nav-logo > figure > img {
-    width: 60%;
+    width: 80%;
     height: 100%;
   }
   
@@ -350,7 +350,7 @@
 
 
 /************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
-@media only screen and (min-width: 1439px) and (min-width:700px) {
+@media only screen  and (min-width:700px) and (max-width: 999px) {
   
   body { overflow: hidden; }
   
@@ -997,11 +997,18 @@
 
 /************** 4K ******************/
 @media only screen and (min-width:1441px) {
+  
   body { overflow: hidden; }
   
   .master-container {
     display: flex;
     width: 600vw;
+  }
+
+  .cta-takeaway {
+    position: fixed;
+    top: 15vh;
+    left: 86vw;
   }
 
   .bg-welcome { background: url('./assets/bgWelcomePC.jpg'); }
@@ -1173,6 +1180,7 @@
   .wholesaling__info {
     padding-left: 42%;
     width: 94%;
+    margin-top: 10%;
   }
   
   .wholesaling__info > p {
@@ -1197,7 +1205,10 @@
     margin-top: 12%;
   }
   
-  .takeaway__info{ width: 88%; }
+  .takeaway__info{ 
+    width: 88%; 
+    margin-top: 10%;
+  }
   
   .takeaway__info > p {
     position: relative;
@@ -1218,11 +1229,12 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    margin-top: 9%;
+    margin-top: 12%;
   }
   
   .our-history__info{
     width: 88%;
+    margin-top: 5%;
   }
   
   .our-history__info > p {
@@ -1245,11 +1257,12 @@
     color: white;
     width: 100vw;
     height: 100vh;
-    margin-top: 11%;
+    margin-top: 12%;
   }
   
   .contact__info{
     width: 88%;
+    margin-top: 6%;
   }
   
   .contact__info > p {
