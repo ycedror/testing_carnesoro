@@ -256,11 +256,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 70px;
   }
   
   .our-history__info{
-    width: 88%;
+    width: 92%;
     margin-top: 3%;
   }
   
@@ -273,9 +273,9 @@
   }
   
   .our-history__info > h2 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: lighter;
-    width: 50%;
+    width: 95%;
     margin: auto;
   }
   
