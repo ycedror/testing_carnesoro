@@ -11,7 +11,7 @@
 }
 
 /************** PC NORMAL ******************/
-@media only screen and (max-width:1440px) and (min-width:1000px) {
+@media only screen and (max-width: 1700px) and (min-width: 1000px) {
 
   body { overflow: hidden; }
   
@@ -157,7 +157,7 @@
   
   .welcome__info > h1 {
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: 1.4rem;
     width: 60%;
     margin: auto;
   }
@@ -180,7 +180,7 @@
   
   .products__info > h2 {
     width: 45vw;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: lighter;
   }
   
@@ -206,7 +206,8 @@
   }
   
   .wholesaling__info {
-    padding-left: 42%;
+    padding-left: 32%;
+    padding-right: 1.5%;
     width: 94%;
     margin-top: 5%;
   }
@@ -217,13 +218,16 @@
     font-family: kenyanCoffee;
     font-size: 6rem;
     text-transform: capitalize;
+
   }
   
-  .wholesaling__info > h2 {
+  .wholesaling__info >  p + p {
     position: relative;
-    top: -12vh;
+    top:0;
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Open sans',sans-serif;
+    text-transform: none;
   }
   
   .takeaway {
@@ -231,36 +235,42 @@
     margin-top: 15%;
   }
   
+  .bg-takeaway {
+    background-position-x: 0px;
+    background-size: 110vw 120vh;
+  }
   .takeaway__info{
     width: 88%;
     margin-top: 8%;
+    padding-right: 34%;
   }
   
   .takeaway__info > p {
     position: relative;
-    top: -20vh;
+    top: -2vh;
     font-family: kenyanCoffee;
     font-size: 6rem;
     text-transform: capitalize;
   }
   
-  .takeaway__info > h2 {
+  .takeaway__info > p + p {
     position: relative;
-    top: -20vh;
+    top:0;
     font-weight: lighter;
-    font-size: 1rem;
-    width: 50vw;
+    font-size: 1.2rem;
+    font-family: 'Open sans';
+    text-transform: none;
   }
   
   .our-history {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 15%;
   }
   
   .our-history__info{
-    width: 92%;
+    width: 88%;
     margin-top: 3%;
   }
   
@@ -272,21 +282,29 @@
     width: 50%;
   }
   
-  .our-history__info > h2 {
-    font-size: 0.9rem;
+  .our-history__info > p + p {
+    font-size: 1.2rem;
     font-weight: lighter;
-    width: 95%;
+    width: 70%;
     margin: auto;
+    position: relative;
+    top:0;
+    font-weight: lighter;
+    font-size: 1.4rem;
+    font-family: 'Open sans';
+    text-transform: none;
   }
   
   .contact {
     display: flex;
     color: white;
     margin-top: 15%;
+    margin-right: 0;
+    width: 100%;
   }
   
   .contact__info{
-    width: 88%;
+    width: 100%;
     margin-top: 8%;
   }
   
@@ -298,12 +316,13 @@
     text-transform: capitalize;
   }
   
-  .contact__info > h2 {
+  .contact__info > p + p {
     position: relative;
-    top: -20vh;
+    top: -10vh;
     width: 80vw;
+    font-family: "Open Sans", sans-serif;
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   
   .contact__branches {
@@ -334,7 +353,7 @@
   
   .contact__social-networks {
     position: relative;
-    top: -18vh;
+    top: -6vh;
   }
   
   .contact__social-networks > figure > a img{
@@ -347,10 +366,8 @@
 }
 /************** PC NORMAL ******************/
 
-
-
-/************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
-@media only screen  and (min-width:700px) and (max-width: 999px) {
+/************** TABLETA PARADA ******************/
+@media only screen and (min-width:700px) and (max-width: 999px) {
   
   body { overflow: hidden; }
   
@@ -657,12 +674,9 @@
   }
   
 }
-/************** TABLETA PARADA (COMO LE GUSTA AL YANIAK) ******************/
+/************** TABLETA PARADA ******************/
 
-
-
-
-/************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
+/************** MOBILE ******************/
 @media only screen and (max-width: 699px) {
 
   .cta-takeaway { display: none }
@@ -686,7 +700,7 @@
   .bg-our-history,
   .bg-contact {
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
   }
   
@@ -696,6 +710,7 @@
     display: flex;
     justify-content: center;
     position: fixed;
+    top:1px;
     width: 100vw;
     z-index: 1;
   }
@@ -713,8 +728,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    margin-top: 15%;
-    margin-left: 15%;
+    margin: 10px auto;
     background-color: rgba(255, 255, 255, 0.859);
     -webkit-box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
     -moz-box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
@@ -897,7 +911,7 @@
   .takeaway__info{
     width: 86%;
     padding-left: 5%;
-    padding-top: 50%;
+    padding-top: 40%;
   }
   
   .takeaway__info > figure { display: none; }
@@ -906,7 +920,7 @@
     font-family: kenyanCoffee;
     font-size: 5rem;
     line-height: 5rem;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
   }
   
   .takeaway__info > h2 {
@@ -923,8 +937,8 @@
   }
   
   .our-history__info{
-    width: 95%;
-    padding-left: 5%;
+    width: 100%;
+    padding-left: 10%;
     padding-top: 50%;
   }
   
@@ -934,14 +948,14 @@
     font-family: kenyanCoffee;
     font-size: 5rem;
     text-transform: capitalize;
-    width: 90%;
+    width: 70%;
     margin: auto;
   }
   
   .our-history__info > h2 {
-    font-size: 1rem;
+    font-size: 1.0rem;
     font-weight: lighter;
-    width: 90%;
+    width: 75%;
     margin: auto;
   }
   
@@ -954,7 +968,7 @@
   }
   
   .contact__info {
-    width: 86%;
+    width: 57%;
     padding-left: 5%;
     padding-top: 40%;
   }
@@ -967,7 +981,14 @@
     text-transform: capitalize;
   }
   
-  .contact__info > h2 { display: none; }
+  .contact__info > h2 { 
+    display: block;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    width: 90%;
+    margin: auto; 
+  
+  }
   
   .contact__branches {
     margin-top: 10%;
@@ -986,17 +1007,15 @@
   .contact__social-networks {
     display: flex;
     justify-content: space-between;
-    width: 70%;
-    margin:  10% auto;
+    align-self: flex-end;
+    width: 44%;
+    margin: 0 0 7% 0;
   }
 }
-/************** MOBILE (COMO LE GUSTA QUE SE MUEVAN AL YANIAK) ******************/
-
-
-
+/************** MOBILE ******************/
 
 /************** 4K ******************/
-@media only screen and (min-width:1441px) {
+@media only screen and (min-width:1701px) {
   
   body { overflow: hidden; }
   
@@ -1043,7 +1062,7 @@
     position: fixed;
     color: white;
     width: 100vw;
-    height: 15%;
+    height: 4%;
     background-color: rgba(0,0,0,0.6);
   }
   
@@ -1122,8 +1141,8 @@
   
   .welcome__info > h1 {
     font-weight: lighter;
-    font-size: 2.3rem;
-    width: 80%;
+    font-size: 2.2rem;
+    width: 84%;
     margin: auto;
   }
   
@@ -1151,7 +1170,7 @@
   }
   
   .products__info > h2 {
-    width: 45vw;
+    width: 54vw;
     font-size: 1.8rem;
     font-weight: lighter;
   }
@@ -1191,11 +1210,13 @@
     text-transform: capitalize;
   }
   
-  .wholesaling__info > h2 {
+  .wholesaling__info p + p {
     position: relative;
     top: -12vh;
     font-weight: lighter;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-family:'Open Sans', sans-serif;
+    text-transform:none ;
   }
   
   .takeaway {
@@ -1217,19 +1238,21 @@
     font-size: 10rem;
   }
   
-  .takeaway__info > h2 {
+  .takeaway__info > p + p {
     position: relative;
-    top: -15vh;
+    top: -13vh;
     font-weight: lighter;
-    font-size: 2rem;
-    width: 50vw;
+    font-size: 1.6rem;
+    width: 51vw;
+    font-family:'Open Sans', sans-serif;
+    text-transform:none ;
   }
   
   .our-history {
     display: flex;
     width: 100vw;
     height: 100vh;
-    margin-top: 12%;
+    margin-top: 4%;
   }
   
   .our-history__info{
@@ -1245,11 +1268,13 @@
     width: 50%;
   }
   
-  .our-history__info > h2 {
-    font-size: 2rem;
+  .our-history__info > p + p  {
+    font-size: 1.7rem;
     font-weight: lighter;
-    width: 50%;
+    width: 62vw;
     margin: auto;
+    font-family:'Open Sans', sans-serif;
+    text-transform:none ;
   }
   
   .contact {
@@ -1267,7 +1292,7 @@
   
   .contact__info > p {
     position: relative;
-    top: -15vh;
+    top: -10vh;
     font-family: kenyanCoffee;
     font-size: 10rem;
     text-transform: capitalize;
@@ -1277,7 +1302,7 @@
     position: relative;
     font-weight: lighter;
     font-size: 2rem;
-    top: -15vh;
+    top: -10vh;
     width: 70vw;
   }
   

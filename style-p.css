@@ -176,7 +176,7 @@
   .product__accesories__container {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: rgb(213, 213, 213);
     overflow: hidden;
   }
@@ -230,7 +230,7 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin: 20% auto;
+    margin: 12% auto;
   }
 
   .products-cards {
@@ -1020,7 +1020,7 @@
   .product__accesories__container {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: rgb(213, 213, 213);
     overflow: hidden;
   }
@@ -1103,16 +1103,30 @@
 
   .product-card a {
     display: block;
+    display: none;
     color: rgb(255,255,255);
     text-decoration: none;
     text-align: center;
     background-color: rgb(188, 0, 0);
   }
+  
+}
 
   .product-card p {
     font-size: 0.7rem;
     border-bottom: 4px solid red;
     padding: 1% 15%;
+  }
+
+  .product-card a + p {
+    display:none
+  }
+
+  .product-card img {
+    display: flex;
+    height: auto;
+    max-height: 200px;
+    margin: auto;
   }
 }
 /************** 4K ******************/
