@@ -148,7 +148,7 @@
   
   .welcome__info > p {
     font-family: kenyanCoffee;
-    font-size: 6rem;
+    font-size: 12rem;
     text-transform: capitalize;
     text-align: center;
     padding-top: 5%;
@@ -701,7 +701,7 @@
   .bg-contact {
     background-size: cover;
     width: 100vw;
-    height: 100vh;
+    height: auto;
   }
   
   .nav { display: none; }
@@ -877,12 +877,13 @@
     justify-content: center;
     color: white;
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 10%;
   }
   
   .wholesaling__info {
     width: 90%;
-    padding-top: 60%;
+    padding-top: 39%;
     padding-left: 5%;
   }
   
@@ -896,9 +897,10 @@
     text-transform: capitalize;
   }
   
-  .wholesaling__info > h2 {
+  .wholesaling__info > p + p {
     font-weight: lighter;
     font-size: 1rem;
+    font-family: "Open sans", sans-serif;
   }
   
   .takeaway {
@@ -923,10 +925,11 @@
     margin-bottom: 5%;
   }
   
-  .takeaway__info > h2 {
+  .takeaway__info > p + p {
     font-weight: lighter;
-    font-size: 1rem;
-    width: 80vw;
+    font-size: 1rem;  
+    line-height: normal;
+    font-family: "Open sans", sans-serif;
   }
   
   .our-history {

@@ -755,7 +755,7 @@
   .product__accesories__container {
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-color: rgb(213, 213, 213);
     overflow: hidden;
   }
@@ -808,14 +808,14 @@
   .products-cards__container {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     margin: 50% auto;
   }
 
   .products-cards {
-    display: flex;
+    display: block;
     justify-content: space-between;
-    margin-bottom: 5%;
+    margin-bottom: 5%;    
   }
 
   .product-price {
@@ -824,8 +824,11 @@
   }
 
   .product-card {
-    width: 30%;
+    width: 75vw;
+    max-width: 350px;
+    height:250px;
     background-color: white;
+    margin: auto;
   }
 
   .product-card h3 {
@@ -1126,6 +1129,7 @@
     display: flex;
     height: auto;
     max-height: 200px;
+    width: auto;
     margin: auto;
   }
 }
