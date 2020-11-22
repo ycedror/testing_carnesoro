@@ -110,6 +110,7 @@
   .pork__container,
   .bird__container,
   .seafood__container,
+  .sausage__container,
   .cheese__container,
   .accesories__container{
     display:flex;
@@ -124,6 +125,7 @@
   .pork__container figure,
   .bird__container figure,
   .seafood__container figure,
+  .sausage__container figure,
   .cheese__container figure,
   .accesories__container figure {
     padding: 5%;
@@ -136,6 +138,7 @@
   .pork__container figure > a > img,
   .bird__container figure > a > img,
   .seafood__container figure > a > img,
+  .sausage__container figure > a > img,
   .cheese__container figure > a > img,
   .accesories__container figure > a > img {
     width: 5vw;
@@ -146,6 +149,7 @@
   .pork__container > div,
   .bird__container > div,
   .seafood__container > div,
+  .sausage__container > div,
   .cheese__container > div,
   .accesories__container > div {
     display: flex;
@@ -162,6 +166,7 @@
   .pork__container > div > h3,
   .bird__container > div > h3,
   .seafood__container > div > h3,
+  .sausage__container > div > h3,
   .cheese__container > div > h3,
   .accesories__container > div > h3 {
     font-weight: lighter;
@@ -255,6 +260,7 @@
   }
 
   .product-card h3 {
+    height:44px;
     color: rgb(255, 255, 255);
     font-size: 1rem;
     text-align: center;
@@ -382,6 +388,7 @@
   .pork__container,
   .bird__container,
   .seafood__container,
+  .sausage__container,
   .cheese__container,
   .accesories__container{
     display:flex;
@@ -395,6 +402,7 @@
   .pork__container figure,
   .bird__container figure,
   .seafood__container figure,
+  .sausage__container figure,
   .cheese__container figure,
   .accesories__container figure {
     padding: 5%;
@@ -407,6 +415,7 @@
   .pork__container figure > a > img,
   .bird__container figure > a > img,
   .seafood__container figure > a > img,
+  .sausage__container figure > a > img,
   .cheese__container figure > a > img,
   .accesories__container figure > a > img {
     width: 6vw;
@@ -418,6 +427,7 @@
   .pork__container > div,
   .bird__container > div,
   .seafood__container > div,
+  .sausage__container >div,
   .cheese__container > div,
   .accesories__container > div {
     display: flex;
@@ -434,6 +444,7 @@
   .pork__container > div > h3,
   .bird__container > div > h3,
   .seafood__container > div > h3,
+  .sausage__container > div > h3,
   .cheese__container > div > h3,
   .accesories__container > div > h3 {
     font-weight: lighter;
@@ -443,7 +454,8 @@
   .product__beef-imported__container,    
   .product__pork__container,    
   .product__bird__container,    
-  .product__seafood__container,    
+  .product__seafood__container,
+  .product__sausage__container,    
   .product__cheese__container,    
   .product__accesories__container {
     display: flex;
@@ -458,6 +470,7 @@
   .product__pork__container aside,
   .product__bird__container aside,
   .product__seafood__container aside,
+  .product__sausage__container,
   .product__cheese__container aside,
   .product__accesories__container aside {
     width: 10vw;
@@ -469,6 +482,7 @@
   .product__pork__container aside ul li,
   .product__bird__container aside ul li,
   .product__seafood__container aside ul li,
+  .product__sausage__container aside ul li,
   .product__cheese__container aside ul li,
   .product__accesories__container aside ul li {
     background-color: black;
@@ -481,8 +495,9 @@
   .product__pork__container aside ul li:nth-child(3),
   .product__bird__container aside ul li:nth-child(4),
   .product__seafood__container aside ul li:nth-child(5),
-  .product__cheese__container aside ul li:nth-child(6),
-  .product__accesories__container aside ul li:nth-child(7) {
+  .product__sausage__container aside ul li:nth-child(6)
+  .product__cheese__container aside ul li:nth-child(7),
+  .product__accesories__container aside ul li:nth-child(8) {
     background-color: rgb(186, 0, 0);
     border: 1px solid white;
     padding: 15%;
@@ -493,6 +508,7 @@
   .product__pork__container aside ul li a img,
   .product__bird__container aside ul li a img,
   .product__seafood__container aside ul li a img,
+  .product__sausage__container aside ul li a img,
   .product__cheese__container aside ul li a img,
   .product__accesories__container aside ul li a img {
     width: 90%;
@@ -684,6 +700,7 @@
   .pork__container,
   .bird__container,
   .seafood__container,
+  .sausage__container,
   .cheese__container,
   .accesories__container{
     display:flex;
@@ -697,6 +714,7 @@
   .pork__container figure,
   .bird__container figure,
   .seafood__container figure,
+  .sausage__container figure,
   .cheese__container figure,
   .accesories__container figure {
     padding: 5%;
@@ -709,6 +727,7 @@
   .pork__container figure > a > img,
   .bird__container figure >  a > img,
   .seafood__container figure > a > img,
+  .sausage__container figure > a > img,
   .cheese__container figure > a > img,
   .accesories__container figure > a > img {
     width: 15vw;
@@ -719,6 +738,7 @@
   .pork__container > div,
   .bird__container > div,
   .seafood__container > div,
+  .sausage__container > div,
   .cheese__container > div,
   .accesories__container > div {
     display: flex;
@@ -735,6 +755,7 @@
   .pork__container > div > h3,
   .bird__container > div > h3,
   .seafood__container > div > h3,
+  .sausage__container > div > h3,
   .cheese__container > div > h3,
   .accesories__container > div > h3 {
     font-size: 0.8rem;
@@ -745,6 +766,7 @@
   .pork__container > div > p,
   .bird__container > div > p,
   .seafood__container > div > p,
+  .sausage__container > div > p,
   .cheese__container > div > p,
   .accesories__container > div > p {
     font-weight: lighter;
@@ -755,7 +777,8 @@
   .product__beef-imported__container,    
   .product__pork__container,    
   .product__bird__container,    
-  .product__seafood__container,    
+  .product__seafood__container,
+  .product__sausage__container,   
   .product__cheese__container,    
   .product__accesories__container {
     display: flex;
@@ -770,6 +793,7 @@
   .product__pork__container aside,
   .product__bird__container aside,
   .product__seafood__container aside,
+  .product__sausage__container aside,
   .product__cheese__container aside,
   .product__accesories__container aside {
     width: 15vw;
@@ -781,6 +805,7 @@
   .product__pork__container aside ul li,
   .product__bird__container aside ul li,
   .product__seafood__container aside ul li,
+  .product__sausage__container aside ul li,
   .product__cheese__container aside ul li,
   .product__accesories__container aside ul li {
     background-color: black;
@@ -793,8 +818,9 @@
   .product__pork__container aside ul li:nth-child(3),
   .product__bird__container aside ul li:nth-child(4),
   .product__seafood__container aside ul li:nth-child(5),
-  .product__cheese__container aside ul li:nth-child(6),
-  .product__accesories__container aside ul li:nth-child(7) {
+  .product__sausage__container aside ul li:nth-child(6),
+  .product__cheese__container aside ul li:nth-child(7),
+  .product__accesories__container aside ul li:nth-child(8) {
     background-color: rgb(186, 0, 0);
     border: 1px solid white;
     padding: 15%;
@@ -805,6 +831,7 @@
   .product__pork__container aside ul li a img,
   .product__bird__container aside ul li a img,
   .product__seafood__container aside ul li a img,
+  .product__sausage__container aside ul li a img,
   .product__cheese__container aside ul li a img,
   .product__accesories__container aside ul li a img {
     width: 90%;
@@ -814,13 +841,12 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: 50% auto;
+    margin: 14% auto;
   }
 
   .products-cards {
     display: block;
-    justify-content: space-between;
-    margin-bottom: 5%;    
+    justify-content: space-between;   
   }
 
   .product-price {
@@ -831,14 +857,14 @@
   .product-card {
     width: 75vw;
     max-width: 350px;
-    height:250px;
+    height:270px;
     background-color: white;
-    margin: auto;
+    margin: 0 auto 15% auto;
   }
 
   .product-card h3 {
     color: rgb(255, 255, 255);
-    font-size: 0.6rem;
+    font-size: 1rem;
     text-align: center;
     background-color: rgb(0, 0, 0);
   }
@@ -846,7 +872,7 @@
   .product-card a {
     display: block;
     color: rgb(255,255,255);
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     text-decoration: none;
     text-align: center;
     background-color: rgb(188, 0, 0);
@@ -980,7 +1006,7 @@
   .sausage__container figure,
   .cheese__container figure,
   .accesories__container figure {
-    padding: 5%;
+    padding: 0%;
     background-color:rgba(0,0,0,0.8);
     border-right: 2px solid rgb(255,0,0);
   }
@@ -1044,6 +1070,7 @@
   .product__pork__container aside,
   .product__bird__container aside,
   .product__seafood__container aside,
+  .product__sausage__container aside,
   .product__cheese__container aside,
   .product__accesories__container aside {
     width: 5vw;
@@ -1055,6 +1082,7 @@
   .product__pork__container aside ul li,
   .product__bird__container aside ul li,
   .product__seafood__container aside ul li,
+  .product__sausage__container aside ul li,
   .product__cheese__container aside ul li,
   .product__accesories__container aside ul li {
     background-color: black;
@@ -1067,8 +1095,9 @@
   .product__pork__container aside ul li:nth-child(3),
   .product__bird__container aside ul li:nth-child(4),
   .product__seafood__container aside ul li:nth-child(5),
-  .product__cheese__container aside ul li:nth-child(6),
-  .product__accesories__container aside ul li:nth-child(7) {
+  .product__sausage__container aside ul li:nth-child(6),
+  .product__cheese__container aside ul li:nth-child(7),
+  .product__accesories__container aside ul li:nth-child(8) {
     background-color: rgb(186, 0, 0);
     border: 1px solid white;
     padding: 15%;
@@ -1079,6 +1108,7 @@
   .product__pork__container aside ul li a img,
   .product__bird__container aside ul li a img,
   .product__seafood__container aside ul li a img,
+  .product__sausage__container aside ul li a img,
   .product__cheese__container aside ul li a img,
   .product__accesories__container aside ul li a img {
     width: 90%;
@@ -1126,22 +1156,23 @@
   
 }
 
-  .product-card p {
-    font-size: 0.7rem;
+.product-card p {
+    font-size: 1.0rem;
+    font-weight: 700;
     border-bottom: 4px solid rgb(255,0,0);
     padding: 1% 15%;
-  }
+}
 
-  .product-card a + p {
+.product-card a + p {
     display:none
-  }
+}
 
-  .product-card img {
+.product-card img {
     display: flex;
     height: auto;
     max-height: 200px;
     width: auto;
     margin: auto;
-  }
+}
 }
 /************** 4K ******************/
