@@ -152,14 +152,17 @@
     text-transform: capitalize;
     text-align: center;
     padding-top: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
   }
   
   .welcome__info > h1 {
     font-weight: lighter;
     font-size: 1.4rem;
-    width: 60%;
+    width: 65%;
     margin: auto;
+    padding-top: -10vh;
+    padding-left: 6vw;
+  
   }
   
   .products {
@@ -209,7 +212,7 @@
     padding-left: 32%;
     padding-right: 1.5%;
     width: 94%;
-    margin-top: 5%;
+    margin-top: 3%;
   }
   
   .wholesaling__info > p {
@@ -225,9 +228,10 @@
     position: relative;
     top:0;
     font-weight: lighter;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-family: 'Open sans',sans-serif;
     text-transform: none;
+    line-height: 2rem;
   }
   
   .takeaway {
@@ -241,13 +245,13 @@
   }
   .takeaway__info{
     width: 88%;
-    margin-top: 8%;
+    margin-top: 4%;
     padding-right: 34%;
   }
   
   .takeaway__info > p {
     position: relative;
-    top: -2vh;
+    top: -6vh;
     font-family: kenyanCoffee;
     font-size: 6rem;
     text-transform: capitalize;
@@ -257,7 +261,7 @@
     position: relative;
     top:0;
     font-weight: lighter;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: 'Open sans';
     text-transform: none;
   }
@@ -283,9 +287,9 @@
   }
   
   .our-history__info > p + p {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: lighter;
-    width: 70%;
+    width: 50%;
     margin: auto;
     position: relative;
     top:0;

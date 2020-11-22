@@ -95,7 +95,7 @@
   
   .products__container-left,
   .products__container-right {
-    padding-top: 20vh;
+    padding-top: 5vh;
     align-self: center;
   }
   
@@ -156,7 +156,7 @@
     flex-direction: column;
     justify-content: center;
     width: 22vw;
-    height: 16vh;
+    height: 11vh;
     padding: 0 5%;
     background-color:rgba(0, 0, 0, 0.5);
   }
