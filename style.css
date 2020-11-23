@@ -182,8 +182,8 @@
   }
   
   .products__info > h2 {
-    width: 45vw;
-    font-size: 1.3rem;
+    width: 47vw;
+    font-size: 1.4rem;
     font-weight: lighter;
   }
   
@@ -557,21 +557,29 @@
   
   .wholesaling__info {
     width: 90%;
-    padding-left: 5%;
-    margin-top: 15%;
+    padding: 0% 5%;
+    margin-top: 10%;
   }
   
   .wholesaling__info > p {
     font-family: kenyanCoffee;
     font-size: 10rem;
     text-transform: capitalize;
+    padding-top: -100px;
   }
   
-  .wholesaling__info > h2 {
+  .wholesaling__info > p + p {
     font-weight: lighter;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-family: "Open sans", sans-serif;
+    text-transform: none;
+
   }
-  
+  .bg-takeaway {
+    background-position: 217vw 108vh;
+  }
+
+
   .takeaway {
     display: flex;
     width: 100vw;
@@ -591,10 +599,12 @@
     margin-bottom: 5%;
   }
   
-  .takeaway__info > h2 {
+  .takeaway__info > p + p {
     font-weight: lighter;
     font-size: 1.3rem;
-    width: 80vw;
+    font-family: "Open sans", sans-serif;
+    text-transform: none;
+    line-height: normal;
   }
   
   .our-history {
@@ -618,11 +628,12 @@
     margin: auto;
   }
   
-  .our-history__info > h2 {
-    font-size: 1.5rem;
+  .our-history__info > p + p {
     font-weight: lighter;
-    width: 80%;
-    margin: auto;
+    font-size: 1.3rem;
+    font-family: "Open sans", sans-serif;
+    text-transform: none;
+    line-height: normal;
   }
   
   .contact {
@@ -645,10 +656,12 @@
     text-transform: capitalize;
   }
   
-  .contact__info > h2 {
-    width: 80vw;
+  .contact__info > p + p {
     font-weight: lighter;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-family: "Open sans", sans-serif;
+    text-transform: none;
+    line-height: normal;
   }
   
   .contact__branches {
@@ -675,6 +688,7 @@
     justify-content: space-between;
     width: 30%;
     margin: auto;
+    padding-top: 25vh;
   }
   
 }
@@ -905,8 +919,15 @@
     font-weight: lighter;
     font-size: 1rem;
     font-family: "Open sans", sans-serif;
+    text-transform: none;
+    line-height: normal;
   }
   
+  .bg-takeaway {
+    background-position-x: 158vh;
+    background-position-y: 5vh;
+  }
+
   .takeaway {
     display: flex;
     justify-content: center;
@@ -932,6 +953,7 @@
   .takeaway__info > p + p {
     font-weight: lighter;
     font-size: 1rem;  
+    text-transform: none;
     line-height: normal;
     font-family: "Open sans", sans-serif;
   }
@@ -959,11 +981,14 @@
     margin: auto;
   }
   
-  .our-history__info > h2 {
+  .our-history__info > p + p {
     font-size: 1.0rem;
     font-weight: lighter;
     width: 75%;
     margin: auto;
+    text-transform: none;
+    line-height: normal;
+    font-family: "Open sans", sans-serif;
   }
   
   .contact {
@@ -975,8 +1000,7 @@
   }
   
   .contact__info {
-    width: 57%;
-    padding-left: 5%;
+    width: 65%;
     padding-top: 40%;
   }
   
@@ -988,13 +1012,15 @@
     text-transform: capitalize;
   }
   
-  .contact__info > h2 { 
+  .contact__info > p + p { 
     display: block;
-    font-size: 0.8rem;
+    width: 100%;
     font-weight: lighter;
-    width: 90%;
-    margin: auto; 
-  
+    font-size: 1.2rem;
+    font-family: "Open sans", sans-serif;  
+    line-height: normal;
+    text-transform: none;
+    margin: auto;  
   }
   
   .contact__branches {
@@ -1016,7 +1042,8 @@
     justify-content: space-between;
     align-self: flex-end;
     width: 44%;
-    margin: 0 0 7% 0;
+    padding-top: 25%;
+    margin: auto;
   }
 }
 /************** MOBILE ******************/
