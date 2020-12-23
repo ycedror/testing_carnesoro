@@ -75,7 +75,7 @@
   
   .nav-logo { margin-left: 6%; }
   
-  .nav-logo > figure > img {
+  .nav-logo > figure > a > img {
     width: 80%;
     height: 100%;
   }
@@ -128,6 +128,11 @@
     color: #fff;
     text-decoration: none;
     text-transform: capitalize;
+    transition: all 0.5s;
+  }
+
+  .nav__elements__links ul li a:hover {
+    font-weight: bold;
   }
 
   .cta-takeaway {
@@ -137,8 +142,8 @@
   }
   
   .main__welcome {
-    color: white;
     display: flex;
+    color: white;
     margin-top: 15%;
   }
   
@@ -149,26 +154,21 @@
   .welcome__info > p {
     font-family: kenyanCoffee;
     font-size: 12rem;
-    text-transform: capitalize;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
   }
   
   .welcome__info > h1 {
     font-weight: lighter;
-    font-size: 1.4rem;
-    width: 65%;
-    margin: auto;
-    padding-top: -10vh;
-    padding-left: 6vw;
-  
+    font-size: 1.3rem;
+    width: 70%;
+    margin-left: 20%;
   }
   
   .products {
     display: flex;
     color:white;
-    margin-top: 15%;
+    margin-top: 13%;
   }
   
   .products__info {
@@ -178,18 +178,17 @@
   .products__info > p {
     font-family: kenyanCoffee;
     font-size: 6rem;
-    text-transform: capitalize;
   }
   
   .products__info > h2 {
-    width: 47vw;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: lighter;
+    width: 47vw;
   }
   
   .products__info > div {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 4rem;
     width: 50vw;
   }
   
@@ -205,33 +204,27 @@
   .wholesaling {
     display: flex;
     color: white;
-    margin-top: 15%;
+    margin-top: 13%;
   }
   
   .wholesaling__info {
     padding-left: 32%;
     padding-right: 1.5%;
     width: 94%;
-    margin-top: 3%;
   }
   
-  .wholesaling__info > p {
-    position: relative;
-    top: -12vh;
+  .wholesaling__info > p:nth-child(1) {
     font-family: kenyanCoffee;
     font-size: 6rem;
-    text-transform: capitalize;
-
   }
   
-  .wholesaling__info >  p + p {
-    position: relative;
-    top:0;
+  .wholesaling__info >  p:nth-child(2),
+  .wholesaling__info >  p:nth-child(3),
+  .wholesaling__info >  p:nth-child(4) {
     font-weight: lighter;
-    font-size: 1.3rem;
-    font-family: 'Open sans',sans-serif;
-    text-transform: none;
-    line-height: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Open sans', sans-serif;
+    line-height: 1.5rem;
   }
   
   .takeaway {
@@ -243,60 +236,58 @@
     background-position-x: 0px;
     background-size: 110vw 120vh;
   }
+
   .takeaway__info{
     width: 88%;
-    margin-top: 4%;
     padding-right: 34%;
   }
   
-  .takeaway__info > p {
-    position: relative;
-    top: -6vh;
+  .takeaway__info > p:nth-child(1) {
     font-family: kenyanCoffee;
     font-size: 6rem;
-    text-transform: capitalize;
   }
   
-  .takeaway__info > p + p {
-    position: relative;
-    top:0;
-    font-weight: lighter;
-    font-size: 1.4rem;
+  .takeaway__info > p:nth-child(2),
+  .takeaway__info > p:nth-child(3),
+  .takeaway__info > p:nth-child(4),
+  .takeaway__info > p:nth-child(5) {
+    font-size: 1.3rem;
     font-family: 'Open sans';
-    text-transform: none;
+    font-weight: lighter;
   }
   
   .our-history {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 10%;
   }
   
-  .our-history__info{
+  .our-history__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 88%;
-    margin-top: 3%;
+    margin-top: 4%;
   }
   
-  .our-history__info > p {
+  .our-history__info > p:nth-child(1) {
     font-family: kenyanCoffee;
     font-size: 6rem;
-    text-transform: capitalize;
-    margin: 0 auto;
-    width: 50%;
+    text-align: center;
+    margin-bottom: 2%;
   }
   
-  .our-history__info > p + p {
-    font-size: 1.8rem;
-    font-weight: lighter;
-    width: 50%;
-    margin: auto;
-    position: relative;
-    top:0;
+  .our-history__info > p:nth-child(2),
+  .our-history__info > p:nth-child(3),
+  .our-history__info > p:nth-child(4),
+  .our-history__info > p:nth-child(5) {
     font-weight: lighter;
     font-size: 1.4rem;
     font-family: 'Open sans';
-    text-transform: none;
+    text-align: justify;
+    width: 65%;
+    margin: auto;
   }
   
   .contact {
@@ -309,55 +300,31 @@
   
   .contact__info{
     width: 100%;
-    margin-top: 8%;
   }
   
-  .contact__info > p {
-    position: relative;
-    top: -20vh;
+  .contact__info > p:nth-child(1) {
     font-family: kenyanCoffee;
     font-size: 6rem;
-    text-transform: capitalize;
   }
   
-  .contact__info > p + p {
-    position: relative;
-    top: -10vh;
-    width: 80vw;
+  .contact__info > p:nth-child(2),
+  .contact__info > p:nth-child(3),
+  .contact__info > p:nth-child(4),
+  .contact__info > p:nth-child(5),
+  .contact__info > p:nth-child(6),
+  .contact__info > p:nth-child(7) {
     font-family: "Open Sans", sans-serif;
     font-weight: lighter;
     font-size: 1.5rem;
-  }
-  
-  .contact__branches {
-    position: relative;
-    top: -18vh;
-    margin-left: 7%;
-  }
-  
-  .contact__branches > div {
-    margin-bottom: 1%;
-  }
-  
-  .contact__branches > div > h3 {
-    text-transform: capitalize;
-    font-size: 1rem;
-  }
-  
-  .contact__branches > div > p {
-    font-size: 0.8rem;
+    width: 80vw;
   }
   
   .contact__social-networks {
     display: flex;
     justify-content: space-between;
     width: 15%;
+    min-width: 15%;
     margin: auto;
-  }
-  
-  .contact__social-networks {
-    position: relative;
-    top: -6vh;
   }
   
   .contact__social-networks > figure > a img{
@@ -623,7 +590,6 @@
   .our-history__info > p {
     font-family: kenyanCoffee;
     font-size: 9rem;
-    text-transform: capitalize;
     width: 80%;
     margin: auto;
   }
@@ -819,7 +785,7 @@
     text-transform: capitalize;
   }
 
-  .nav__mobile__logo > img {
+  .nav__mobile__logo > a > img {
     width: 90%;
   }
 
