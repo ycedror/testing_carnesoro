@@ -56,9 +56,7 @@
     align-items: center;
     width: 94%;
     margin-left: 6%;
-    padding-top: 1%;
-    padding-left: 8%;
-    padding-right: 9%;
+    padding: 1% 9% 0 8%;
     border-bottom: 1px solid #fff;
   }
   
@@ -88,7 +86,7 @@
   }
   
   .nav__elements__links ul li a {
-    color: #fff;
+    color: rgb(255,255,255);
     text-decoration: none;
     text-transform: capitalize;
   }
@@ -113,9 +111,9 @@
   .sausage__container,
   .cheese__container,
   .accesories__container{
-    display:flex;
-    color:#fff;
+    display: flex;
     align-items: center;
+    color: rgb(255,255,255);
     margin: 1rem;
     overflow: hidden;
   }
@@ -129,7 +127,7 @@
   .cheese__container figure,
   .accesories__container figure {
     padding: 5%;
-    background-color:rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
     border-right: 2px solid rgb(255,0,0);
   }
 
@@ -158,7 +156,7 @@
     width: 22vw;
     height: 11vh;
     padding: 0 5%;
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:rgba(0,0,0,0.5);
   }
 
   .beef-national__container > div > h3,
@@ -183,7 +181,7 @@
     display: flex;
     width: 100%;
     height: auto;
-    background-color: rgb(213, 213, 213);
+    background-color: rgb(213,213,213);
     overflow: hidden;
   }
 
@@ -207,8 +205,8 @@
   .product__sausage__container aside ul li,
   .product__cheese__container aside ul li,
   .product__accesories__container aside ul li {
-    background-color: black;
-    border: 1px solid white;
+    background-color: rgb(0,0,0);
+    border: 1px solid rgb(255,255,255);
     padding: 15%;
   }
 
@@ -220,8 +218,8 @@
   .product__sausage__container aside ul li:nth-child(6),
   .product__cheese__container aside ul li:nth-child(7),
   .product__accesories__container aside ul li:nth-child(8) {
-    background-color: rgb(186, 0, 0);
-    border: 1px solid white;
+    background-color: rgb(186,0,0);
+    border: 1px solid rgb(255,255,255);
     padding: 15%;
   }
   
@@ -260,10 +258,10 @@
   }
 
   .product-card h3 {
-    height:44px;
     color: rgb(255, 255, 255);
     font-size: 1rem;
     text-align: center;
+    height: 44px;
     background-color: rgb(0, 0, 0);
   }
 
@@ -272,7 +270,7 @@
     color: rgb(255,255,255);
     text-decoration: none;
     text-align: center;
-    background-color: rgb(188, 0, 0);
+    background-color: rgb(188,0,0);
   }
 
   .product-card p {
@@ -304,8 +302,8 @@
   }
 
   .nav {
-    display: flex;
     position: fixed;
+    display: flex;
     color: white;
     width: 100vw;
     height: 8%;
@@ -330,10 +328,8 @@
     align-items: center;
     width: 100%;
     margin-left: 6%;
-    padding-top: 1%;
-    padding-left: 8%;
-    padding-right: 9%;
-    border-bottom: 1px solid #fff;
+    padding: 1% 9% 0 8%;
+    border-bottom: 1px solid rgb(255,255,255);
   }
   
   .nav__elements__info figure { height: 40px; }
@@ -362,14 +358,10 @@
   }
   
   .nav__elements__links ul li a {
-    color: #fff;
+    color: rgb(255,255,255);
     text-decoration: none;
     text-transform: capitalize;
   }
-
-  .bg-product{
-
-  } 
   
   .products__container-left,
   .products__container-right {
@@ -391,8 +383,8 @@
   .sausage__container,
   .cheese__container,
   .accesories__container{
-    display:flex;
-    color:#fff;
+    display: flex;
+    color: rgb(255,255,255);
     align-items: center;
     margin: 1rem;
   }
@@ -421,7 +413,6 @@
     width: 6vw;
   }
 
-
   .beef-national__container > div,
   .beef-imported__container > div,
   .pork__container > div,
@@ -436,7 +427,7 @@
     width: 28vw;
     height: 12vh;
     padding: 0 5%;
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:rgba(0,0,0,0.5);
   }
 
   .beef-national__container > div > h3,
@@ -461,7 +452,7 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(213, 213, 213);
+    background-color: rgb(213,213,213);
     overflow: hidden;
   }
 
@@ -485,8 +476,8 @@
   .product__sausage__container aside ul li,
   .product__cheese__container aside ul li,
   .product__accesories__container aside ul li {
-    background-color: black;
-    border: 1px solid white;
+    background-color: rgb(0,0,0);
+    border: 1px solid rgb(255,255,255);
     padding: 15%;
   }
 
@@ -498,8 +489,8 @@
   .product__sausage__container aside ul li:nth-child(6)
   .product__cheese__container aside ul li:nth-child(7),
   .product__accesories__container aside ul li:nth-child(8) {
-    background-color: rgb(186, 0, 0);
-    border: 1px solid white;
+    background-color: rgb(186,0,0);
+    border: 1px solid rgb(255,255,255);
     padding: 15%;
   }
   
@@ -534,14 +525,14 @@
 
   .product-card {
     width: 30%;
-    background-color: white;
+    background-color: rgb(255,255,255);
   }
 
   .product-card h3 {
-    color: rgb(255, 255, 255);
+    color: rgb(255,255,255);
     font-size: 1rem;
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0,0,0);
   }
 
   .product-card a {
@@ -549,7 +540,7 @@
     color: rgb(255,255,255);
     text-decoration: none;
     text-align: center;
-    background-color: rgb(188, 0, 0);
+    background-color: rgb(188,0,0);
   }
 
   .product-card p {
@@ -604,14 +595,14 @@
     border-radius: 50%;
     margin-top: 15%;
     margin-left: 15%;
-    background-color: rgba(255, 255, 255, 0.859);
-    -webkit-box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
-    -moz-box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
-    box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
+    background-color: rgba(255,255,255,0.8);
+    -webkit-box-shadow: -1px 4px 50px -13px rgb(87,87,87);
+    -moz-box-shadow: -1px 4px 50px -13px rgb(87,87,87);
+    box-shadow: -1px 4px 50px -13px rgb(87,87,87);
   }
   
   .nav__mobile__hamburguer > div {
-    background-color: rgba(0, 0, 0, 0.612);
+    background-color: rgba(0,0,0,0.6);
     margin:  5% auto;
     width: 60%;
     height: 5px;
@@ -624,7 +615,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.886);
+    background-color: rgba(0,0,0,0.8);
   }
 
   .close-nav__mobile {
@@ -634,25 +625,21 @@
     border-radius: 50%;
     margin-top: 5%;
     margin-left: 75%;
-    background-color: rgba(255, 255, 255, 0.818);
+    background-color: rgba(255,255,255,0.8);
   }
 
   .close-nav__mobile > div {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255,255,255);
     width: 100%;
     height: 3px;
   }
 
   .close-nav__mobile > div:nth-child(1) { 
-    transform: 
-      rotate(45deg) 
-      translate(30px,10px); 
+    transform: rotate(45deg) translate(30px,10px); 
   }
 
   .close-nav__mobile > div:nth-child(2) {
-    transform: 
-      rotate(135deg) 
-      translate(30px,-10px);
+    transform: rotate(135deg) translate(30px,-10px);
   }
 
   .nav__mobile__hamburguer-list ul {
@@ -670,10 +657,8 @@
 
   .nav__mobile__hamburguer-list ul li a {
     color: white;
-    font-size: 2.4rem;
-    font-family: kenyanCoffee;;
+    font: 2.4rem kenyanCoffee;
     text-decoration: none;
-    text-transform: capitalize;
   }
 
   .nav__mobile__logo > img {
@@ -703,8 +688,8 @@
   .sausage__container,
   .cheese__container,
   .accesories__container{
-    display:flex;
-    color:#fff;
+    display: flex;
+    color: rgb(255,255,255);
     align-items: center;
     margin: 1rem;
   }
@@ -747,7 +732,7 @@
     width: 28vw;
     height: 9vh;
     padding: 0 5%;
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color: rgba(0,0,0,0.5);
   }
 
   .beef-national__container > div > h3,
@@ -769,8 +754,7 @@
   .sausage__container > div > p,
   .cheese__container > div > p,
   .accesories__container > div > p {
-    font-weight: lighter;
-    font-size: 0.6rem;
+    font-weight: lighter 0.6rem;
   }
 
   .product__beef-national__container,
@@ -808,8 +792,8 @@
   .product__sausage__container aside ul li,
   .product__cheese__container aside ul li,
   .product__accesories__container aside ul li {
-    background-color: black;
-    border: 1px solid white;
+    background-color: rgb(0,0,0);
+    border: 1px solid rgb(255,255,255);
     padding: 15%;
   }
 
@@ -821,7 +805,7 @@
   .product__sausage__container aside ul li:nth-child(6),
   .product__cheese__container aside ul li:nth-child(7),
   .product__accesories__container aside ul li:nth-child(8) {
-    background-color: rgb(186, 0, 0);
+    background-color: rgb(186,0,0);
     border: 1px solid white;
     padding: 15%;
   }
@@ -857,13 +841,13 @@
   .product-card {
     width: 75vw;
     max-width: 350px;
-    height:270px;
+    height: 270px;
     background-color: white;
     margin: 0 auto 15% auto;
   }
 
   .product-card h3 {
-    color: rgb(255, 255, 255);
+    color: rgb(255,255,255);
     font-size: 1rem;
     text-align: center;
     background-color: rgb(0, 0, 0);
@@ -875,7 +859,7 @@
     font-size: 0.9rem;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(188, 0, 0);
+    background-color: rgb(188,0,0);
   }
 
   .product-card p {
@@ -909,7 +893,7 @@
   .nav {
     display: flex;
     position: fixed;
-    color: white;
+    color: rgb(255,255,255);
     width: 100vw;
     height: 13%;
     background-color: rgba(0,0,0,0.6);
@@ -933,10 +917,8 @@
     align-items: center;
     width: 94%;
     margin-left: 6%;
-    padding-top: 1%;
-    padding-left: 8%;
-    padding-right: 9%;
-    border-bottom: 1px solid #fff;
+    padding-top: 1% 9% 8%;
+    border-bottom: 1px solid rgb(255,255,255);
   }
   
   .nav__elements__info figure { height: 40px; }
@@ -965,9 +947,8 @@
   }
   
   .nav__elements__links ul li a {
-    color: #fff;
+    color: rgb(255,255,255);
     font-size: 1.3rem;
-    text-decoration: none;
     text-transform: capitalize;
   }
   
@@ -991,11 +972,10 @@
   .sausage__container,
   .cheese__container,
   .accesories__container{
-    display:flex;
-    color:#fff;
+    display: flex;
     align-items: center;
+    color: rgb(255,255,255);
     margin: 1rem;
-
   }
   
   .beef-national__container figure,
@@ -1036,7 +1016,7 @@
     width: 22vw;
     height: 14vh;
     padding: 0 5%;
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:rgba(0,0,0,0.5);
   }
 
   .beef-national__container > div > h3,
@@ -1061,7 +1041,7 @@
     display: flex;
     width: 100%;
     height: auto;
-    background-color: rgb(213, 213, 213);
+    background-color: rgb(213,213,213);
     overflow: hidden;
   }
 
@@ -1098,7 +1078,7 @@
   .product__sausage__container aside ul li:nth-child(6),
   .product__cheese__container aside ul li:nth-child(7),
   .product__accesories__container aside ul li:nth-child(8) {
-    background-color: rgb(186, 0, 0);
+    background-color: rgb(186,0,0);
     border: 1px solid white;
     padding: 15%;
   }
@@ -1142,23 +1122,21 @@
     color: rgb(255, 255, 255);
     font-size: 1rem;
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0,0,0);
   }
 
   .product-card a {
     display: block;
     display: none;
     color: rgb(255,255,255);
-    text-decoration: none;
     text-align: center;
-    background-color: rgb(188, 0, 0);
+    background-color: rgb(188,0,0);
   }
   
 }
 
 .product-card p {
-    font-size: 1.0rem;
-    font-weight: 700;
+    font: 700 1rem;
     border-bottom: 4px solid rgb(255,0,0);
     padding: 1% 15%;
 }
@@ -1169,10 +1147,10 @@
 
 .product-card img {
     display: flex;
-    height: auto;
     max-height: 200px;
     width: auto;
+    height: auto;
     margin: auto;
 }
-}
-/************** 4K ******************/
+
+/************** 4K ******************

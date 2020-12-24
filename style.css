@@ -91,9 +91,7 @@
     align-items: center;
     width: 94%;
     margin-left: 6%;
-    padding-top: 1%;
-    padding-left: 8%;
-    padding-right: 9%;
+    padding: 1% 9% 0 8%;
     border-bottom: 1px solid #fff;
   }
   
@@ -125,14 +123,12 @@
   }
   
   .nav__elements__links ul li a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: capitalize;
+    color: rgb(255,255,255);
     transition: all 0.5s;
   }
 
   .nav__elements__links ul li a:hover {
-    font-weight: bold;
+    font: bold;
   }
 
   .cta-takeaway {
@@ -152,15 +148,13 @@
   }
   
   .welcome__info > p {
-    font-family: kenyanCoffee;
-    font-size: 12rem;
+    font: 12rem kenyanCoffee;
     text-align: center;
     padding-top: 3%;
   }
   
   .welcome__info > h1 {
-    font-weight: lighter;
-    font-size: 1.3rem;
+    font: lighter 1.3rem;
     width: 70%;
     margin-left: 20%;
   }
@@ -176,13 +170,11 @@
   }
   
   .products__info > p {
-    font-family: kenyanCoffee;
-    font-size: 6rem;
+    font: 6rem kenyanCoffee;
   }
   
   .products__info > h2 {
-    font-size: 1.3rem;
-    font-weight: lighter;
+    font: lighter 1.3rem;
     width: 47vw;
   }
   
@@ -208,23 +200,19 @@
   }
   
   .wholesaling__info {
-    padding-left: 32%;
     padding-right: 1.5%;
+    padding-left: 32%;
     width: 94%;
   }
   
   .wholesaling__info > p:nth-child(1) {
-    font-family: kenyanCoffee;
-    font-size: 6rem;
+    font: 6rem kenyanCoffee;
   }
   
   .wholesaling__info >  p:nth-child(2),
   .wholesaling__info >  p:nth-child(3),
   .wholesaling__info >  p:nth-child(4) {
-    font-weight: lighter;
-    font-size: 1.2rem;
-    font-family: 'Open sans', sans-serif;
-    line-height: 1.5rem;
+    font: lighter 1.2rem/1.5rem 'Open sans', sans-serif ;
   }
   
   .takeaway {
@@ -243,17 +231,14 @@
   }
   
   .takeaway__info > p:nth-child(1) {
-    font-family: kenyanCoffee;
-    font-size: 6rem;
+    font: 6rem kenyanCoffee;
   }
   
   .takeaway__info > p:nth-child(2),
   .takeaway__info > p:nth-child(3),
   .takeaway__info > p:nth-child(4),
   .takeaway__info > p:nth-child(5) {
-    font-size: 1.3rem;
-    font-family: 'Open sans';
-    font-weight: lighter;
+    font: lighter 1.3rem 'Open Sans', sans-serif;
   }
   
   .our-history {
@@ -272,8 +257,7 @@
   }
   
   .our-history__info > p:nth-child(1) {
-    font-family: kenyanCoffee;
-    font-size: 6rem;
+    font-family: 6rem kenyanCoffee;
     text-align: center;
     margin-bottom: 2%;
   }
@@ -282,9 +266,7 @@
   .our-history__info > p:nth-child(3),
   .our-history__info > p:nth-child(4),
   .our-history__info > p:nth-child(5) {
-    font-weight: lighter;
-    font-size: 1.4rem;
-    font-family: 'Open sans';
+    font: lighter 1.4rem 'Open Sans', sans-serif;
     text-align: justify;
     width: 65%;
     margin: auto;
@@ -303,8 +285,7 @@
   }
   
   .contact__info > p:nth-child(1) {
-    font-family: kenyanCoffee;
-    font-size: 6rem;
+    font-family: 6rem kenyanCoffee;
   }
   
   .contact__info > p:nth-child(2),
@@ -313,9 +294,7 @@
   .contact__info > p:nth-child(5),
   .contact__info > p:nth-child(6),
   .contact__info > p:nth-child(7) {
-    font-family: "Open Sans", sans-serif;
-    font-weight: lighter;
-    font-size: 1.5rem;
+    font: lighter 1.5rem 'Open Sans', sans-serif;
     width: 80vw;
   }
   
@@ -349,8 +328,8 @@
 
   .arrow {
     width: 6%;
-    padding-left: 1%;
     padding-top: 40%;
+    padding-left: 1%;
     transition: 0.5s all;
   }
 
@@ -404,9 +383,7 @@
     align-items: center;
     width: 100%;
     margin-left: 1%;
-    padding-top: 1%;
-    padding-left: 1%;
-    padding-right: 2%;
+    padding: 1% 2% 0 1%;
     border-bottom: 1px solid #fff;
   }
   
@@ -443,7 +420,6 @@
   .nav__elements__links ul li a {
     color: #fff;
     text-decoration: none;
-    text-transform: capitalize;
   }
 
   .cta-takeaway {
@@ -463,26 +439,23 @@
   }
   
   .welcome__info > p {
-    font-family: kenyanCoffee;
-    font-size: 9rem;
-    text-transform: capitalize;
+    font: 9rem kenyanCoffee;
     text-align: center;
     padding-top: 35%;
     padding-bottom: 10%;
   }
   
   .welcome__info > h1 {
-    font-weight: lighter;
-    font-size: 1.5rem;
+    font: lighter 1.5rem;
     width: 80%;
     margin: auto;
   }
   
   .products {
     display: flex;
+    color:white;
     width: 100vw;
     height: 100vh;
-    color:white;
     margin-top: 25%;
   }
   
@@ -493,16 +466,13 @@
   }
   
   .products__info > p {
-    font-family: kenyanCoffee;
-    font-size: 9rem;
-    text-transform: capitalize;
+    font-family: 9rem kenyanCoffee;
     margin-top: 10%;
   }
   
   .products__info > h2 {
     width: 75vw;
-    font-size: 1.5rem;
-    font-weight: lighter;
+    font: lighter 1.5rem;
   }
   
   .products__info > div {
@@ -528,20 +498,17 @@
     margin-top: 10%;
   }
   
-  .wholesaling__info > p {
-    font-family: kenyanCoffee;
-    font-size: 10rem;
-    text-transform: capitalize;
+  .wholesaling__info > p:nth-child(1) {
+    font-family: 10rem kenyanCoffee;
     padding-top: -100px;
   }
   
-  .wholesaling__info > p + p {
-    font-weight: lighter;
-    font-size: 1.3rem;
-    font-family: "Open sans", sans-serif;
-    text-transform: none;
-
+  .wholesaling__info > p:nth-child(2),
+  .wholesaling__info > p:nth-child(3),
+  .wholesaling__info > p:nth-child(4) {
+    font-weight: lighter 1.3rem 'Open sans', sans-serif;
   }
+
   .bg-takeaway {
     background-position: 217vw 108vh;
   }
@@ -559,19 +526,16 @@
     padding-left: 5%;
   }
   
-  .takeaway__info > p {
-    font-family: kenyanCoffee;
-    font-size: 7rem;
-    line-height: 8rem;
+  .takeaway__info > p:nth-child(1) {
+    font-family: 7rem/8rem kenyanCoffee;
     margin-bottom: 5%;
   }
   
-  .takeaway__info > p + p {
-    font-weight: lighter;
-    font-size: 1.3rem;
-    font-family: "Open sans", sans-serif;
-    text-transform: none;
-    line-height: normal;
+  .takeaway__info > p:nth-child(2),
+  .takeaway__info > p:nth-child(3),
+  .takeaway__info > p:nth-child(4),
+  .takeaway__info > p:nth-child(5) {
+    font: lighter 1.3rem/normal 'Open sans', sans-serif;
   }
   
   .our-history {
@@ -581,32 +545,30 @@
     margin-top: 25%;
   }
   
-  .our-history__info{
+  .our-history__info {
     width: 88%;
     padding-left: 5%;
     margin-top: 20%;
   }
   
-  .our-history__info > p {
-    font-family: kenyanCoffee;
-    font-size: 9rem;
+  .our-history__info > p:nth-child(1) {
+    font-family: 9rem kenyanCoffee;
     width: 80%;
     margin: auto;
   }
   
-  .our-history__info > p + p {
-    font-weight: lighter;
-    font-size: 1.3rem;
-    font-family: "Open sans", sans-serif;
-    text-transform: none;
-    line-height: normal;
+  .our-history__info > p:nth-child(2),
+  .our-history__info > p:nth-child(3)
+  .our-history__info > p:nth-child(4)
+  .our-history__info > p:nth-child(5) {
+    font-weight: lighter 1.3rem/normal 'Open sans', sans-serif;
   }
   
   .contact {
     display: flex;
+    color: white;
     width: 100vw;
     height: 100vh;
-    color: white;
     margin-top: 25%;
   }
   
@@ -616,37 +578,17 @@
     margin-top: 15%;
   }
   
-  .contact__info > p {
-    font-family: kenyanCoffee;
-    font-size: 9rem;
-    text-transform: capitalize;
+  .contact__info > p:nth-child(1) {
+    font: 9rem kenyanCoffee;
   }
   
-  .contact__info > p + p {
-    font-weight: lighter;
-    font-size: 1.3rem;
-    font-family: "Open sans", sans-serif;
-    text-transform: none;
-    line-height: normal;
-  }
-  
-  .contact__branches {
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 5%;
-  }
-  
-  .contact__branches > div {
-    margin-bottom: 2%;
-  }
-  
-  .contact__branches > div > h3 {
-    text-transform: capitalize;
-    font-size: 1.2rem;
-  }
-  
-  .contact__branches > div > p {
-    font-size: 1rem;
+  .contact__info > p:nth-child(2),
+  .contact__info > p:nth-child(3),
+  .contact__info > p:nth-child(4),
+  .contact__info > p:nth-child(5),
+  .contact__info > p:nth-child(6),
+  .contact__info > p:nth-child(7) {
+    font: lighter 1.3rem/normal 'Open sans', sans-serif;
   }
   
   .contact__social-networks {
@@ -691,10 +633,10 @@
   .nav { display: none; }
 
   .nav__mobile {
+    position: fixed;
+    top: 1px;
     display: flex;
     justify-content: center;
-    position: fixed;
-    top:1px;
     width: 100vw;
     z-index: 1;
   }
@@ -713,14 +655,14 @@
     height: 80px;
     border-radius: 50%;
     margin: 10px auto;
-    background-color: rgba(255, 255, 255, 0.859);
-    -webkit-box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
-    -moz-box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
-    box-shadow: -1px 4px 50px -13px rgba(87,87,87,1);
+    background-color: rgba(255,255,255,0.8);
+    -webkit-box-shadow: -1px 4px 50px -13px rgb(87,87,87);
+    -moz-box-shadow: -1px 4px 50px -13px rgb(87,87,87);
+    box-shadow: -1px 4px 50px -13px rgb(87,87,87);
   }
   
   .nav__mobile__hamburguer > div {
-    background-color: rgba(0, 0, 0, 0.612);
+    background-color: rgba(0,0,0,0.6);
     margin:  5% auto;
     width: 60%;
     height: 5px;
@@ -733,7 +675,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.886);
+    background-color: rgba(0,0,0,0.8);
   }
 
   .close-nav__mobile {
@@ -743,25 +685,21 @@
     border-radius: 50%;
     margin-top: 5%;
     margin-left: 75%;
-    background-color: rgba(255, 255, 255, 0.818);
+    background-color: rgba(255,255,255,0.8);
   }
 
   .close-nav__mobile > div {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255,255,255);
     width: 100%;
     height: 3px;
   }
 
   .close-nav__mobile > div:nth-child(1) { 
-    transform: 
-      rotate(45deg) 
-      translate(30px,10px); 
+    transform: rotate(45deg) translate(30px,10px); 
   }
 
   .close-nav__mobile > div:nth-child(2) {
-    transform: 
-      rotate(135deg) 
-      translate(30px,-10px);
+    transform: rotate(135deg) translate(30px,-10px);
   }
 
   .nav__mobile__hamburguer-list ul {
@@ -779,10 +717,7 @@
 
   .nav__mobile__hamburguer-list ul li a {
     color: white;
-    font-size: 2.4rem;
-    font-family: kenyanCoffee;;
-    text-decoration: none;
-    text-transform: capitalize;
+    font: 2.4rem kenyanCoffee;
   }
 
   .nav__mobile__logo > a > img {
@@ -796,8 +731,8 @@
 
   .main__welcome {
     display: flex;
-    color: white;
     justify-content: center;
+    color: white;
     padding-top: 50%;  
     width: 100%;
     height: 100vh;
@@ -806,24 +741,21 @@
   .welcome__info { width: 80%; }
   
   .welcome__info > p {
-    font-family: kenyanCoffee;
-    font-size: 5rem;
-    text-transform: capitalize;
+    font: 5rem kenyanCoffee;
     text-align: center;
     padding-top: 15%;
     padding-bottom: 10%;
   }
   
   .welcome__info > h1 {
-    font-weight: lighter;
-    font-size: 1rem;
+    font: lighter 1rem;
     margin: auto;
   }
   
   .products {
     display: flex;
-    color:white;
     justify-content: center;
+    color:white;
     width: 100vw;
     height: 100vh;
   }
@@ -837,16 +769,13 @@
   }
   
   .products__info > p {
-    font-family: kenyanCoffee;
-    font-size: 5rem;
-    text-transform: capitalize;
+    font: 5rem kenyanCoffee;
     margin-top: 10%;
   }
   
   .products__info > h2 {
+    font: lighter 1rem;
     width: 75vw;
-    font-size: 1rem;
-    font-weight: lighter;
   }
   
   .products__info > div {
@@ -875,18 +804,14 @@
     display: none;
   }
   
-  .wholesaling__info > p {
-    font-family: kenyanCoffee;
-    font-size: 5rem;
-    text-transform: capitalize;
+  .wholesaling__info > p:nth-child(1) {
+    font: 5rem kenyanCoffee;
   }
   
-  .wholesaling__info > p + p {
-    font-weight: lighter;
-    font-size: 1rem;
-    font-family: "Open sans", sans-serif;
-    text-transform: none;
-    line-height: normal;
+  .wholesaling__info > p:nth-child(2),
+  .wholesaling__info > p:nth-child(3),
+  .wholesaling__info > p:nth-child(4) {
+    font: lighter 1rem/normal 'Open sans', sans-serif;
   }
   
   .bg-takeaway {
@@ -909,19 +834,16 @@
   
   .takeaway__info > figure { display: none; }
   
-  .takeaway__info > p {
-    font-family: kenyanCoffee;
-    font-size: 5rem;
-    line-height: 5rem;
+  .takeaway__info > p:nth-child(1) {
+    font: 5rem/5rem kenyanCoffee;
     margin-bottom: 5%;
   }
   
-  .takeaway__info > p + p {
-    font-weight: lighter;
-    font-size: 1rem;  
-    text-transform: none;
-    line-height: normal;
-    font-family: "Open sans", sans-serif;
+  .takeaway__info > p:nth-child(2),
+  .takeaway__info > p:nth-child(3),
+  .takeaway__info > p:nth-child(4),
+  .takeaway__info > p:nth-child(5) {
+    font: lighter 1rem/normal 'Open sans', sans-serif;
   }
   
   .our-history {
@@ -939,22 +861,19 @@
   
   .our-history__info > figure { display: none; }
   
-  .our-history__info > p {
-    font-family: kenyanCoffee;
-    font-size: 5rem;
-    text-transform: capitalize;
+  .our-history__info > p:nth-child(1) {
+    font: 5rem kenyanCoffee;
     width: 70%;
     margin: auto;
   }
   
-  .our-history__info > p + p {
-    font-size: 1.0rem;
-    font-weight: lighter;
+  .our-history__info > p:nth-child(2),
+  .our-history__info > p:nth-child(3),
+  .our-history__info > p:nth-child(4),
+  .our-history__info > p:nth-child(5) {
+    font: lighter 1rem 'Open sans', sans-serif;
     width: 75%;
     margin: auto;
-    text-transform: none;
-    line-height: normal;
-    font-family: "Open sans", sans-serif;
   }
   
   .contact {
@@ -972,36 +891,21 @@
   
   .contact__info > figure { display: none; }
   
-  .contact__info > p {
-    font-family: kenyanCoffee;
-    font-size: 5rem;
-    text-transform: capitalize;
+  .contact__info > p:nth-child(1) {
+    font: 5rem kenyanCoffee;
   }
   
-  .contact__info > p + p { 
+  .contact__info > p:nth-child(2),
+  .contact__info > p:nth-child(3),
+  .contact__info > p:nth-child(4),
+  .contact__info > p:nth-child(5),
+  .contact__info > p:nth-child(6),
+  .contact__info > p:nth-child(7) { 
     display: block;
+    font: lighter 1.2rem "Open sans", sans-serif;
     width: 100%;
-    font-weight: lighter;
-    font-size: 1.2rem;
-    font-family: "Open sans", sans-serif;  
-    line-height: normal;
-    text-transform: none;
     margin: auto;  
   }
-  
-  .contact__branches {
-    margin-top: 10%;
-    margin-bottom: 5%;
-  }
-  
-  .contact__branches > div { margin-bottom: 5%; }
-  
-  .contact__branches > div > h3 {
-    text-transform: capitalize;
-    font-size: 1.2rem;
-  }
-  
-  .contact__branches > div > p { font-size: 1rem; }
   
   .contact__social-networks {
     display: flex;
@@ -1062,7 +966,7 @@
     position: fixed;
     color: white;
     width: 100vw;
-    height: 4%;
+    height: 130px;
     background-color: rgba(0,0,0,0.6);
   }
   
@@ -1084,9 +988,7 @@
     align-items: center;
     width: 94%;
     margin-left: 6%;
-    padding-top: 1%;
-    padding-left: 8%;
-    padding-right: 9%;
+    padding: 1% 9% 0 8%;
     border-bottom: 1px solid #fff;
   }
   
@@ -1116,10 +1018,14 @@
   }
   
   .nav__elements__links ul li a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: capitalize;
+    color: rgb(255,255,255);
     font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .nav__elements__links ul li a:hover {
+    font-weight: bold;
   }
   
   .main__welcome {
@@ -1131,26 +1037,23 @@
   .welcome__info { width: 94%; }
   
   .welcome__info > p {
-    font-family: kenyanCoffee;
-    font-size: 10rem;
-    text-transform: capitalize;
+    font: 10rem kenyanCoffee;
     text-align: center;
     padding-top: 7%;
     padding-bottom: 7%;
   }
   
   .welcome__info > h1 {
-    font-weight: lighter;
-    font-size: 2.2rem;
+    font: lighter 2.2rem;
     width: 84%;
     margin: auto;
   }
   
   .products {
     display: flex;
+    color:white;
     width: 100vw;
     height: 100vh;
-    color:white;
     margin-top: 12%;
   }
   
@@ -1164,21 +1067,18 @@
   .products__info { width: 94%; }
   
   .products__info > p {
-    font-family: kenyanCoffee;
-    font-size: 10rem;
-    text-transform: capitalize;
+    font: 10rem kenyanCoffee;
   }
   
   .products__info > h2 {
+    font: lighter 1.8rem;
     width: 54vw;
-    font-size: 1.8rem;
-    font-weight: lighter;
   }
   
   .products__info > div {
+    display: flex;
     margin-top: 2rem;
     width: 70vw;
-    display: flex;
   }
   
   .products__icons img {
@@ -1190,33 +1090,26 @@
   
   .wholesaling {
     display: flex;
+    color: white;
     width: 100vw;
     height: 100vh;
-    color: white;
     margin-top: 12%;
   }
   
   .wholesaling__info {
     padding-left: 42%;
     width: 94%;
-    margin-top: 10%;
   }
   
-  .wholesaling__info > p {
-    position: relative;
-    top: -12vh;
-    font-family: kenyanCoffee;
-    font-size: 10rem;
-    text-transform: capitalize;
+  .wholesaling__info > p:nth-child(1) {
+    font: 10rem kenyanCoffee;
   }
   
-  .wholesaling__info p + p {
-    position: relative;
-    top: -12vh;
-    font-weight: lighter;
-    font-size: 1.7rem;
-    font-family:'Open Sans', sans-serif;
-    text-transform:none ;
+  .wholesaling__info > p:nth-child(2),
+  .wholesaling__info > p:nth-child(3),
+  .wholesaling__info > p:nth-child(4),
+  .wholesaling__info > p:nth-child(5) {
+    font: lighter 1.5rem 'Open Sans', sans-serif;
   }
   
   .takeaway {
@@ -1228,24 +1121,18 @@
   
   .takeaway__info{ 
     width: 88%; 
-    margin-top: 10%;
   }
   
-  .takeaway__info > p {
-    position: relative;
-    top: -15vh;
-    font-family: kenyanCoffee;
-    font-size: 10rem;
+  .takeaway__info > p:nth-child(1) {
+    font: 10rem kenyanCoffee;
   }
   
-  .takeaway__info > p + p {
-    position: relative;
-    top: -13vh;
-    font-weight: lighter;
-    font-size: 1.6rem;
+  .takeaway__info > p:nth-child(2),
+  .takeaway__info > p:nth-child(3),
+  .takeaway__info > p:nth-child(4),
+  .takeaway__info > p:nth-child(5) {
+    font: lighter 1.5rem 'Open Sans', sans-serif;
     width: 51vw;
-    font-family:'Open Sans', sans-serif;
-    text-transform:none ;
   }
   
   .our-history {
@@ -1257,24 +1144,21 @@
   
   .our-history__info{
     width: 88%;
-    margin-top: 5%;
   }
   
-  .our-history__info > p {
-    font-family: kenyanCoffee;
-    font-size: 10rem;
-    text-transform: capitalize;
-    margin: auto;
+  .our-history__info > p:nth-child(1) {
+    font: 10rem kenyanCoffee;
+    margin: 8% auto 3% auto;
     width: 50%;
   }
   
-  .our-history__info > p + p  {
-    font-size: 1.7rem;
-    font-weight: lighter;
+  .our-history__info > p:nth-child(2),
+  .our-history__info > p:nth-child(3),
+  .our-history__info > p:nth-child(4),
+  .our-history__info > p:nth-child(5) {
+    font: lighter 1.7rem 'Open Sans', sans-serif;
     width: 62vw;
     margin: auto;
-    font-family:'Open Sans', sans-serif;
-    text-transform:none ;
   }
   
   .contact {
@@ -1285,7 +1169,7 @@
     margin-top: 12%;
   }
   
-  .contact__info{
+  .contact__info {
     width: 88%;
     margin-top: 6%;
   }
@@ -1293,36 +1177,14 @@
   .contact__info > p {
     position: relative;
     top: -10vh;
-    font-family: kenyanCoffee;
-    font-size: 10rem;
-    text-transform: capitalize;
+    font: 10rem kenyanCoffee;
   }
   
   .contact__info > h2 {
     position: relative;
-    font-weight: lighter;
-    font-size: 2rem;
+    font: lighter 2rem;
     top: -10vh;
     width: 70vw;
-  }
-  
-  .contact__branches {
-    position: relative;
-    top: -13vh;
-    margin-left: 5%;
-  }
-  
-  .contact__branches > div {
-    margin-bottom: 1%;
-  }
-  
-  .contact__branches > div > h3 {
-    text-transform: capitalize;
-    font-size: 2rem;
-  }
-  
-  .contact__branches > div > p {
-    font-size: 1.2rem;
   }
   
   .contact__social-networks {
