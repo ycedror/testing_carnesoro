@@ -288,7 +288,7 @@
 @media only screen and (min-width: 700px) and (max-width: 999px) {
   
   .bg-product {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     background: url('./assets/bgProduct.jpg') no-repeat center;
     background-size: cover;
@@ -768,7 +768,7 @@
     display: flex;
     width: 100vw;
     height: auto;
-    background-color: rgb(213, 213, 213);
+    background-color: rgb(213,213,213);
     overflow: hidden;
   }
 
@@ -806,7 +806,7 @@
   .product__cheese__container aside ul li:nth-child(7),
   .product__accesories__container aside ul li:nth-child(8) {
     background-color: rgb(186,0,0);
-    border: 1px solid white;
+    border: 1px solid rgb(255,255,255);
     padding: 15%;
   }
   
@@ -842,7 +842,7 @@
     width: 75vw;
     max-width: 350px;
     height: 270px;
-    background-color: white;
+    background-color: rgb(255,255,255);
     margin: 0 auto 15% auto;
   }
 
@@ -850,7 +850,7 @@
     color: rgb(255,255,255);
     font-size: 1rem;
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0,0,0);
   }
 
   .product-card a {
@@ -917,7 +917,7 @@
     align-items: center;
     width: 94%;
     margin-left: 6%;
-    padding-top: 1% 9% 8%;
+    padding: 1% 9% 0 8%;
     border-bottom: 1px solid rgb(255,255,255);
   }
   
@@ -949,7 +949,6 @@
   .nav__elements__links ul li a {
     color: rgb(255,255,255);
     font-size: 1.3rem;
-    text-transform: capitalize;
   }
   
   .products__container-left,
@@ -1065,8 +1064,8 @@
   .product__sausage__container aside ul li,
   .product__cheese__container aside ul li,
   .product__accesories__container aside ul li {
-    background-color: black;
-    border: 1px solid white;
+    background-color: rgb(0,0,0);
+    border: 1px solid rgb(255,255,255);
     padding: 15%;
   }
 
@@ -1079,7 +1078,7 @@
   .product__cheese__container aside ul li:nth-child(7),
   .product__accesories__container aside ul li:nth-child(8) {
     background-color: rgb(186,0,0);
-    border: 1px solid white;
+    border: 1px solid rgb(255,255,255);
     padding: 15%;
   }
   
@@ -1115,7 +1114,7 @@
 
   .product-card {
     width: 30%;
-    background-color: white;
+    background-color: rgb(255,255,255);
   }
 
   .product-card h3 {
@@ -1133,24 +1132,23 @@
     background-color: rgb(188,0,0);
   }
   
-}
-
-.product-card p {
+  .product-card p {
     font: 700 1rem;
     border-bottom: 4px solid rgb(255,0,0);
     padding: 1% 15%;
-}
+  }
 
-.product-card a + p {
+  .product-card a + p {
     display:none
-}
+  }
 
-.product-card img {
+  .product-card img {
     display: flex;
     max-height: 200px;
     width: auto;
     height: auto;
     margin: auto;
+  }
 }
 
 /************** 4K ******************
