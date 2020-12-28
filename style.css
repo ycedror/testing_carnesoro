@@ -162,7 +162,7 @@
   .products {
     display: flex;
     color:white;
-    margin-top: 13%;
+    margin-top: 15%;
   }
   
   .products__info {
@@ -196,7 +196,7 @@
   .wholesaling {
     display: flex;
     color: white;
-    margin-top: 13%;
+    margin-top: 15%;
   }
   
   .wholesaling__info {
@@ -244,8 +244,7 @@
   .our-history {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 10%;
+    margin-top: 15%;
   }
   
   .our-history__info {
@@ -257,7 +256,7 @@
   }
   
   .our-history__info > p:nth-child(1) {
-    font-family: 6rem kenyanCoffee;
+    font: 6rem kenyanCoffee;
     text-align: center;
     margin-bottom: 2%;
   }
@@ -276,7 +275,6 @@
     display: flex;
     color: white;
     margin-top: 15%;
-    margin-right: 0;
     width: 100%;
   }
   
@@ -285,7 +283,7 @@
   }
   
   .contact__info > p:nth-child(1) {
-    font-family: 6rem kenyanCoffee;
+    font: 6rem kenyanCoffee;
   }
   
   .contact__info > p:nth-child(2),
@@ -303,7 +301,7 @@
     justify-content: space-between;
     width: 15%;
     min-width: 15%;
-    margin: auto;
+    margin: 2vh auto;
   }
   
   .contact__social-networks > figure > a img{
