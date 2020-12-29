@@ -1114,7 +1114,7 @@
 
   .product-card {
     width: 30%;
-    background-color: rgb(255,255,255);
+    background-color: rgb(14, 13, 13);
   }
 
   .product-card h3 {
@@ -1133,7 +1133,7 @@
   }
   
   .product-card p {
-    font: 700 1rem;
+    font-size: 1rem;
     border-bottom: 4px solid rgb(255,0,0);
     padding: 1% 15%;
   }
